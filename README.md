@@ -1,6 +1,6 @@
 # Tropical Geometry in Economics
 
-A curated, weekly-updated list of papers applying tropical geometry and min-plus methods to economics. Live site: **https://YOURNAME.github.io/tropical-econ-papers/**
+A curated, weekly-updated list of papers applying tropical geometry and min-plus methods to economics. Live site: **https://tanayrajbhatt.github.io/tropical-econ-papers/**
 
 _5 papers._
 
