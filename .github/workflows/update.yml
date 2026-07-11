@@ -1,0 +1,55 @@
+name: weekly-update
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'      # Mondays 08:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  fetch-candidates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch and filter candidates
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python src/pipeline.py
+
+      - name: Open review issue if candidates found
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          COUNT=$(python -c "import json;print(len(json.load(open('data/candidates.json'))))")
+          if [ "$COUNT" -gt 0 ]; then
+            BODY=$(python - << 'PY'
+          import json
+          c = json.load(open('data/candidates.json'))
+          lines = [f"Found **{len(c)}** candidate(s) for review. Approve with `python src/review.py`, then `python src/render.py`.\n"]
+          for p in c:
+              a = ", ".join(p.get("authors", [])[:4])
+              lines.append(f"### {p['title']}\n{a} ({p.get('year','')})\n\n> {p.get('_reason','')}\n\n{p['url']}\n")
+          print("\n".join(lines))
+          PY
+          )
+            echo "$BODY" | gh issue create \
+              --title "Weekly candidates: $(date +%Y-%m-%d) ($COUNT)" \
+              --body-file - \
+              --label "review"
+          fi
+
+      - name: Commit candidates file
+        run: |
+          git config user.name "tropical-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/candidates.json
+          git commit -m "chore: refresh candidates $(date +%Y-%m-%d)" || echo "no changes"
+          git push

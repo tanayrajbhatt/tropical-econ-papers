@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tropical Geometry in Economics</title>
+<meta name="description" content="A curated, weekly-updated bibliography of papers applying tropical geometry and min-plus methods to economics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FBFAF7; --ink:#141414; --lattice:#C9C6BC;
+    --accent:#3D3BD4; --muted:#6C6A63; --hair:#E4E1D8;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:"Newsreader",Georgia,serif; font-size:15px; line-height:1.5;
+  }
+  @media (prefers-reduced-motion: no-preference){
+    .poly path{stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 2.4s ease forwards}
+    .poly circle{opacity:0;animation:pop .4s ease forwards}
+  }
+  @keyframes draw{to{stroke-dashoffset:0}}
+  @keyframes pop{to{opacity:1}}
+  .wrap{max-width:860px;margin:0 auto;padding:0 24px}
+  header{border-bottom:1px solid var(--ink);padding-top:44px}
+  .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.18em;
+    text-transform:uppercase;color:var(--accent);margin:0 0 14px}
+  h1{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:clamp(28px,5vw,44px);
+    line-height:1.03;letter-spacing:-.02em;margin:0 0 8px}
+  .lede{color:var(--muted);max-width:54ch;margin:0 0 20px;font-size:15.5px}
+  .poly{display:block;width:100%;height:96px;margin:6px 0 0}
+  .poly path{fill:none;stroke:var(--accent);stroke-width:2}
+  .poly circle{fill:var(--paper);stroke:var(--ink);stroke-width:2}
+  .statline{display:flex;gap:20px;align-items:baseline;
+    font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted);
+    padding:14px 0;border-top:1px solid var(--hair);margin-top:18px}
+  .statline b{color:var(--ink);font-weight:500}
+  .controls{position:sticky;top:0;background:var(--paper);z-index:5;
+    padding:12px 0;border-bottom:1px solid var(--hair)}
+  #q{width:100%;font-family:"IBM Plex Mono",monospace;font-size:13px;
+    padding:10px 12px;border:1px solid var(--lattice);background:#fff;color:var(--ink);
+    border-radius:0}
+  #q:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+  main{padding:6px 0 64px}
+  .paper{display:grid;grid-template-columns:48px 1fr;gap:16px;
+    padding:22px 0;border-bottom:1px solid var(--hair)}
+  .idx{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted);
+    padding-top:4px;position:relative}
+  .idx span{position:relative;z-index:1}
+  .idx::before{content:"";position:absolute;left:5px;top:22px;bottom:-22px;
+    width:1px;background:var(--hair)}
+  .paper:last-child .idx::before{display:none}
+  .idx::after{content:"";position:absolute;left:2px;top:8px;width:7px;height:7px;
+    background:var(--paper);border:1.5px solid var(--accent);border-radius:50%}
+  h2{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:17px;
+    line-height:1.25;letter-spacing:-.01em;margin:0 0 6px}
+  h2 a{color:var(--ink);text-decoration:none;background-image:linear-gradient(var(--accent),var(--accent));
+    background-size:0% 1.5px;background-repeat:no-repeat;background-position:0 100%;
+    transition:background-size .25s ease}
+  h2 a:hover,h2 a:focus{color:var(--accent);background-size:100% 1.5px}
+  .meta{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted);margin:0 0 2px}
+  .meta.sub{margin-bottom:8px}
+  .venue{color:var(--ink)}
+  .abstract{margin:0 0 10px}
+  .abstract summary{font-family:"IBM Plex Mono",monospace;font-size:11px;
+    letter-spacing:.06em;text-transform:uppercase;color:var(--accent);
+    cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:6px;
+    user-select:none}
+  .abstract summary::-webkit-details-marker{display:none}
+  .abstract summary::before{content:"+";font-size:13px;line-height:1;
+    display:inline-block;width:10px;transition:transform .2s ease}
+  .abstract[open] summary::before{content:"–"}
+  .abstract summary:hover{color:var(--ink)}
+  .abstract p{margin:8px 0 0;color:#2b2b2b;font-size:14.5px;line-height:1.58;
+    max-width:66ch}
+  .tags{display:flex;flex-wrap:wrap;gap:6px}
+  .tag{font-family:"IBM Plex Mono",monospace;font-size:10.5px;letter-spacing:.04em;
+    padding:3px 7px;border:1px solid var(--lattice);color:var(--muted)}
+  .empty{padding:48px 0;text-align:center;color:var(--muted);font-family:"IBM Plex Mono",monospace;font-size:13px}
+  footer{border-top:1px solid var(--ink);padding:22px 0 48px;
+    font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--muted)}
+  footer a{color:var(--accent);text-decoration:none}
+  @media(max-width:600px){
+    body{font-size:14.5px}
+    .paper{grid-template-columns:28px 1fr;gap:10px}
+    .idx::before,.idx::after{display:none}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="eyebrow">min-plus &middot; bibliography</p>
+    <h1>Tropical Geometry<br>in Economics</h1>
+    <p class="lede">Papers that bring tropical geometry and min-plus methods to auctions, matching, equilibrium, and choice. Curated by hand, refreshed weekly.</p>
+    <svg class="poly" viewBox="0 0 860 120" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,96 L150,96 L330,40 L500,40 L640,84 L860,20"/>
+      <circle cx="150" cy="96" r="4"/><circle cx="330" cy="40" r="4"/>
+      <circle cx="500" cy="40" r="4"/><circle cx="640" cy="84" r="4"/>
+    </svg>
+    <div class="statline">
+      <span><b>3</b> papers</span>
+      <span>ordered newest first</span>
+      <span>tropical &cap; economic</span>
+    </div>
+  </div>
+</header>
+<div class="controls">
+  <div class="wrap">
+    <input id="q" type="search" placeholder="filter by title, author, or topic…" aria-label="Filter papers">
+  </div>
+</div>
+<main>
+  <div class="wrap" id="list">
+
+      <article class="paper" data-title="understanding preferences: &quot;demand types&quot;, and the existence of equilibrium with indivisibilities" data-authors="elizabeth baldwin, paul klemperer" data-topics="auction theory equilibrium indivisibilities">
+        <div class="idx"><span>03</span></div>
+        <div class="body">
+          <h2><a href="https://arxiv.org/abs/1706.07067" target="_blank" rel="noopener">Understanding Preferences: &quot;Demand Types&quot;, and the Existence of Equilibrium with Indivisibilities</a></h2>
+          <p class="meta">Elizabeth Baldwin, Paul Klemperer</p>
+          <p class="meta sub"><span class="venue">Econometrica</span> · 2019</p>
+          <details class="abstract">
+            <summary>Abstract</summary>
+            <p>We provide a new taxonomy of valuations over indivisible goods using tropical geometry and the theory of tropical hypersurface arrangements, characterizing which classes of preferences guarantee competitive equilibrium existence.</p>
+          </details>
+          <div class="tags"><span class="tag">auction theory</span><span class="tag">equilibrium</span><span class="tag">indivisibilities</span></div>
+        </div>
+      </article>
+
+      <article class="paper" data-title="the tropical geometry of shortest paths" data-authors="ngoc mai tran, josephine yu" data-topics="min-plus algebra networks optimization">
+        <div class="idx"><span>02</span></div>
+        <div class="body">
+          <h2><a href="https://arxiv.org/abs/1911.12237" target="_blank" rel="noopener">The Tropical Geometry of Shortest Paths</a></h2>
+          <p class="meta">Ngoc Mai Tran, Josephine Yu</p>
+          <p class="meta sub"><span class="venue">preprint</span> · 2019</p>
+          <details class="abstract">
+            <summary>Abstract</summary>
+            <p>We study min-plus (tropical) linear algebra and its connection to combinatorial optimization problems that arise in economic network models.</p>
+          </details>
+          <div class="tags"><span class="tag">min-plus algebra</span><span class="tag">networks</span><span class="tag">optimization</span></div>
+        </div>
+      </article>
+
+      <article class="paper" data-title="product-mix auctions and tropical geometry" data-authors="ngoc mai tran, josephine yu" data-topics="auction theory product-mix equilibrium">
+        <div class="idx"><span>01</span></div>
+        <div class="body">
+          <h2><a href="https://arxiv.org/abs/2004.06429" target="_blank" rel="noopener">Product-Mix Auctions and Tropical Geometry</a></h2>
+          <p class="meta">Ngoc Mai Tran, Josephine Yu</p>
+          <p class="meta sub"><span class="venue">Mathematics of Operations Research</span> · 2019</p>
+          <details class="abstract">
+            <summary>Abstract</summary>
+            <p>We use tropical geometry to analyze the product-mix auction of Klemperer, giving a geometric characterization of competitive equilibrium and its existence conditions via tropical hypersurfaces.</p>
+          </details>
+          <div class="tags"><span class="tag">auction theory</span><span class="tag">product-mix</span><span class="tag">equilibrium</span></div>
+        </div>
+      </article>
+    <p class="empty" id="empty" hidden>No papers match that filter.</p>
+  </div>
+</main>
+<footer>
+  <div class="wrap">
+    Contributions welcome — open an issue or PR on
+    <a href="https://github.com/tanayrajbhatt/tropical-econ-papers" target="_blank" rel="noopener">GitHub</a>.
+    Built with a human-in-the-loop weekly pipeline.
+  </div>
+</footer>
+<script>
+  const q=document.getElementById('q'),
+        papers=[...document.querySelectorAll('.paper')],
+        empty=document.getElementById('empty');
+  q.addEventListener('input',()=>{
+    const t=q.value.trim().toLowerCase();let shown=0;
+    papers.forEach(p=>{
+      const hit=!t||p.dataset.title.includes(t)||p.dataset.authors.includes(t)||p.dataset.topics.includes(t);
+      p.style.display=hit?'':'none';if(hit)shown++;
+    });
+    empty.hidden=shown!==0;
+  });
+</script>
+</body>
+</html>
