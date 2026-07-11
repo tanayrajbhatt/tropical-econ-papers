@@ -49,7 +49,7 @@ def render_readme(papers):
         "# Tropical Geometry in Economics",
         "",
         "A curated, weekly-updated list of papers applying tropical geometry and "
-        "min-plus methods to economics. Live site: **https://tanayrajbhatt.github.io/tropical-econ-papers/**",
+        "min-plus methods to economics. Live site: **https://YOURNAME.github.io/tropical-econ-papers/**",
         "",
         f"_{len(papers)} papers._",
         "",
@@ -61,10 +61,10 @@ def render_readme(papers):
 
 
 def main():
-    papers = json.loads(PAPERS.read_text())
+    papers = json.loads(PAPERS.read_text(encoding="utf-8"))
     SITE.parent.mkdir(exist_ok=True)
-    SITE.write_text(render_site(papers))
-    README.write_text(render_readme(papers))
+    SITE.write_text(render_site(papers), encoding="utf-8")
+    README.write_text(render_readme(papers), encoding="utf-8")
     print(f"Rendered {len(papers)} papers -> {SITE}")
 
 
@@ -193,7 +193,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <footer>
   <div class="wrap">
     Contributions welcome — open an issue or PR on
-    <a href="https://github.com/tanayrajbhatt/tropical-econ-papers" target="_blank" rel="noopener">GitHub</a>.
+    <a href="https://github.com/YOURNAME/tropical-econ-papers" target="_blank" rel="noopener">GitHub</a>.
     Built with a human-in-the-loop weekly pipeline.
   </div>
 </footer>

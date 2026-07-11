@@ -2,40 +2,93 @@
   {
     "id": "arxiv:1706.07067",
     "title": "Understanding Preferences: \"Demand Types\", and the Existence of Equilibrium with Indivisibilities",
-    "authors": ["Elizabeth Baldwin", "Paul Klemperer"],
+    "authors": [
+      "Elizabeth Baldwin",
+      "Paul Klemperer"
+    ],
     "year": 2019,
     "venue": "Econometrica",
     "abstract": "We provide a new taxonomy of valuations over indivisible goods using tropical geometry and the theory of tropical hypersurface arrangements, characterizing which classes of preferences guarantee competitive equilibrium existence.",
     "url": "https://arxiv.org/abs/1706.07067",
     "doi": "10.3982/ECTA13693",
-    "topics": ["auction theory", "equilibrium", "indivisibilities"],
+    "topics": [
+      "auction theory",
+      "equilibrium",
+      "indivisibilities"
+    ],
     "added": "2024-01-01",
     "source": "seed"
   },
   {
     "id": "arxiv:1911.12237",
     "title": "The Tropical Geometry of Shortest Paths",
-    "authors": ["Ngoc Mai Tran", "Josephine Yu"],
+    "authors": [
+      "Ngoc Mai Tran",
+      "Josephine Yu"
+    ],
     "year": 2019,
     "venue": "preprint",
     "abstract": "We study min-plus (tropical) linear algebra and its connection to combinatorial optimization problems that arise in economic network models.",
     "url": "https://arxiv.org/abs/1911.12237",
     "doi": null,
-    "topics": ["min-plus algebra", "networks", "optimization"],
+    "topics": [
+      "min-plus algebra",
+      "networks",
+      "optimization"
+    ],
     "added": "2024-01-01",
     "source": "seed"
   },
   {
     "id": "arxiv:2004.06429",
     "title": "Product-Mix Auctions and Tropical Geometry",
-    "authors": ["Ngoc Mai Tran", "Josephine Yu"],
+    "authors": [
+      "Ngoc Mai Tran",
+      "Josephine Yu"
+    ],
     "year": 2019,
     "venue": "Mathematics of Operations Research",
     "abstract": "We use tropical geometry to analyze the product-mix auction of Klemperer, giving a geometric characterization of competitive equilibrium and its existence conditions via tropical hypersurfaces.",
     "url": "https://arxiv.org/abs/2004.06429",
     "doi": null,
-    "topics": ["auction theory", "product-mix", "equilibrium"],
+    "topics": [
+      "auction theory",
+      "product-mix",
+      "equilibrium"
+    ],
     "added": "2024-01-01",
     "source": "seed"
+  },
+  {
+    "id": "arxiv:2604.17741",
+    "title": "The Algebraic Degree of Network Games via Tropical Geometry: A Geometric Perspective on Datta's Formula",
+    "authors": [
+      "Hangkun Hu",
+      "Jingyi Wang",
+      "Minggang Wang"
+    ],
+    "year": 2026,
+    "venue": "preprint",
+    "abstract": "The algebraic degree of a network game measures the complexity of its totally mixed Nash equilibria. For sparse multilinear network games, Datta's formula expresses this degree combinatorially in terms of a permanent, but the geometric origin of this formula has remained unclear. In this paper, we provide a tropical-geometric derivation of Datta's formula by identifying totally mixed equilibria with stable intersection points of tropical hypersurfaces associated with the indifference equations. We show that the mixed cells arising from the multilinear Newton polytope structure induce the cycle-cover combinatorics of the polynomial graph, so that the permanent appears as a tropical intersection count. This interpretation yields several structural consequences. We prove that the algebraic degree is multiplicative over strongly connected components, and we establish a sharp contrast between two basic multilayer coupling mechanisms: Cartesian-type couplings remain bounded through a transfer-matrix trace formula, whereas tensor-type couplings exhibit exponential growth governed by the permanent of a local gadget. These results show that algebraic degree provides a structural complexity invariant for network architecture. We further illustrate the theory on coupled cyclic games and networked energy-market models, and we support the theoretical predictions with numerical experiments based on homotopy continuation.",
+    "url": "http://arxiv.org/abs/2604.17741v1",
+    "doi": null,
+    "source": "arxiv",
+    "topics": [],
+    "added": "2026-07-11"
+  },
+  {
+    "id": "arxiv:2603.05461",
+    "title": "Equilibrium for max-plus payoff",
+    "authors": [
+      "Taras Radul"
+    ],
+    "year": 2026,
+    "venue": "preprint",
+    "abstract": "We study equilibrium concepts in non-cooperative games under uncertainty where both beliefs and mixed strategies are represented by non-additive measures (capacities). In contrast to the classical Nash framework based on additive probabilities and linear convexity, we employ capacities and max-plus integrals to model qualitative and idempotent decision criteria. Two equilibrium notions are investigated: Nash equilibrium in mixed strategies expressed by capacities, and equilibrium under uncertainty in the sense of Dow and Werlang, where players choose pure strategies but evaluate payoffs with respect to non-additive beliefs. For games with compact strategy spaces and continuous payoffs, we establish existence results for both equilibrium concepts using abstract convexity techniques and a Kakutani-type fixed point theorem.",
+    "url": "http://arxiv.org/abs/2603.05461v1",
+    "doi": null,
+    "source": "arxiv",
+    "topics": [],
+    "added": "2026-07-11"
   }
 ]

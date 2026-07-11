@@ -17,7 +17,7 @@ CANDIDATES = ROOT / "data" / "candidates.json"
 
 
 def main():
-    papers = json.loads(PAPERS.read_text())
+    papers = json.loads(PAPERS.read_text(encoding="utf-8"))
     known = {p["id"] for p in papers}
     # also dedup by normalized title
     known_titles = {p["title"].lower().strip() for p in papers}
@@ -29,7 +29,7 @@ def main():
     for p in new:
         p["added"] = datetime.date.today().isoformat()
 
-    CANDIDATES.write_text(json.dumps(new, indent=2))
+    CANDIDATES.write_text(json.dumps(new, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"{len(new)} candidate(s) written to {CANDIDATES}")
     return new
 
