@@ -1,0 +1,133 @@
+[
+  {
+    "id": "arxiv:2606.00493",
+    "title": "Non-linear Dynamical Stability of Magnetic Polytropes",
+    "authors": [
+      "Bryan M Johnson"
+    ],
+    "year": 2026,
+    "venue": "preprint",
+    "abstract": "This work analyzes the non-linear dynamical stability of ideal-gas polytropes under homologous flow. A non-constant density profile requires the inclusion of magnetic fields, which is done by introducing a mean-field model that treats the spherically-averaged radial Lorentz force self-consistently and has the following properties: 1) The only essential simplifications are the Cowling approximation and a dominant radial flow. 2) The average radial Lorentz force due to an isotropic field is $-\\frac13 dP_B/dr$, not $-dP_B/dr$ as is typically assumed. 3) A central peak in the magnetic field requires isotropy there; all other configurations are zero at the origin due to magnetic tension. 4) Solutions with negligible surface fields require $\\gtrsim1/2$ of the magnetic energy to be in the radial component. 5) Solutions that resemble Lane-Emden solutions are restricted to $γ= 4/3$, where $γ$ is the material adiabatic index, and exhibit either collapse or escape. 6) Solutions for general $γ$ have a harmonic enthalpy profile and allow for non-linear radial pulsations. 7) A harmonic-enthalpy homologous flow becomes unbound when an overpressure satisfies $δ= ΔP_0/P_{\\rm eq} > \\frac{3γ- 4}{1 + 3(γ-1)α_0}$, where $P$ is the total pressure, $P_{\\rm eq}$ is its equilibrium value, $α$ is the ratio of radiation to material pressure, and a zero subscript denotes minimum volume. This indicates that radiation pressure can unbind a linearly-stable polytrope in the presence of small but finite radial perturbations. The condition to unbind a fully-ionized $n = 3$ polytrope with $2/3$ of its magnetic energy in the radial component is $δ\\gtrsim 0.15μ^{-1}\\left(300M_\\odot/M\\right)^{1/2}$, where $μ$ is the mean molecular weight. This non-linear dynamical instability threshold may have some relevance for mass loss in and dispersal of evolved high-mass stars.",
+    "url": "http://arxiv.org/abs/2606.00493v1",
+    "doi": null,
+    "categories": [
+      "astro-ph.SR"
+    ],
+    "source": "arxiv",
+    "topics": [],
+    "_reason": "classifier error: HTTP Error 401: Unauthorized",
+    "added": "2026-07-13"
+  },
+  {
+    "id": "arxiv:2605.18560",
+    "title": "Astrophysics equation of state inference with Bayesian chiral effective field theory uncertainties",
+    "authors": [
+      "Melissa Mendes",
+      "Hannah Göttling",
+      "Anna Hensel",
+      "Isak Svensson",
+      "Kai Hebeler",
+      "Achim Schwenk",
+      "Nathan Rutherford",
+      "Anna Watts"
+    ],
+    "year": 2026,
+    "venue": "preprint",
+    "abstract": "We investigate Bayesian chiral effective field theory ($χ$EFT) uncertainties, which assign a statistical interpretation to equation of state (EOS) distributions near nuclear saturation density, n$_0$, as well as constraints from perturbative quantum chromodynamics (pQCD) to Bayesian EOS inference from LIGO/Virgo, NICER and pulsar mass observations. The tails of the $χ$EFT uncertainties allow for broader pressure ranges in our priors, but large parts of these are excluded by the astrophysical observations, so that the EOS and the resulting mass-radius posteriors are still very consistent with our earlier work. Within our broad prior ranges, we observe a clear stiffening of the EOS at $n \\gtrsim 3 n_0$. Moreover, the impact of the pQCD constraints on the posterior EOS and mass-radius range is negligible due to the astrophysics constraints. Exploiting the strong correlation between pure neutron matter and matter in beta equilibrium, we infer the symmetry energy slope parameter $L$ from astrophysics. For the $68\\%$ credible interval, we obtain $L=42.6-52$ MeV and $L=44.2-56.7$ MeV using piecewise-polytrope and speed-of-sound high-density extensions, respectively. The $L$ posterior is mainly driven by the combination of GW170817 LIGO/Virgo and PSR J0740+6620, PSR J0437-4715, and PSR J0614-3329 NICER observations.",
+    "url": "http://arxiv.org/abs/2605.18560v1",
+    "doi": null,
+    "categories": [
+      "nucl-th",
+      "astro-ph.HE"
+    ],
+    "source": "arxiv",
+    "topics": [],
+    "_reason": "classifier error: HTTP Error 401: Unauthorized",
+    "added": "2026-07-13"
+  },
+  {
+    "id": "arxiv:2605.09551",
+    "title": "VP, VNP and Algebraic Branching Programs over Min-Plus Semirings",
+    "authors": [
+      "Balagopal Komarath",
+      "Harshil Mittal",
+      "Jayalal Sarma"
+    ],
+    "year": 2026,
+    "venue": "preprint",
+    "abstract": "Arithmetic circuit complexity studies the complexity of computing polynomials using only arithmetic operations such as addition, multiplication, subtraction, and division. Polynomials over rings of integers model counting problems. Similarly, polynomials over semirings such as tropical semirings model optimization problems. Circuits over semirings then model so called pure algorithms, algorithms that only use the operations in the semiring. In this paper, we do a complexity-theoretic study of the power and limitations of circuits (which represent dynamic programs) over semirings: i) We define $\\mathsf{VNP}$ over min-plus semirings, which can faithfully represent problems such as computing min-weight perfect matchings and min-weight Hamiltonian cycles where we have efficiently verifiable certificates. Unlike over rings, we complement the values in the certificate for free as complementation is impossible over min-plus semirings. We prove a dichotomy theorem that states that if we only complement logarithmically many values, this class is same as $\\mathsf{VP}$ over min-plus semirings. If we complement super-logarithmically many values, then $\\mathsf{VNP} \\neq \\mathsf{VP}$. ii) We consider constant-width ABPs (which are also called incremental dynamic programs that are restricted to use only a constant number of registers) and show that even simple problems like computing the min-weight $2$-edge-matching is impossible with width $2$ (or $2$ registers). However, with width $3$ (or $3$ registers), such programs can compute everything. More generally, we show that constant-depth formulas are efficiently simulated by constant-width ABPs. iii) We show that an exponential hypercube sum (min in the semiring) over even provably weak models such as width-$2$ ABPs and products of linear forms are the same as $\\mathsf{VNP}$.",
+    "url": "http://arxiv.org/abs/2605.09551v1",
+    "doi": null,
+    "categories": [
+      "cs.CC"
+    ],
+    "source": "arxiv",
+    "topics": [],
+    "_reason": "classifier error: HTTP Error 401: Unauthorized",
+    "added": "2026-07-13"
+  },
+  {
+    "id": "arxiv:2605.07150",
+    "title": "Deterministic Monotone Min-Plus Product and Convolution",
+    "authors": [
+      "Ce Jin",
+      "Jaewoo Park",
+      "Barna Saha",
+      "Yinzhan Xu"
+    ],
+    "year": 2026,
+    "venue": "preprint",
+    "abstract": "The Monotone Min-Plus Product problem is a useful primitive that has seen many algorithmic applications over the past decade. In this problem, we are given two $n\\times n$ integer matrices $A$ and $B$, where each row of $B$ is a monotone non-decreasing sequence of integers from $\\{1,\\dots,n\\}$, and the goal is to compute their Min-Plus product, defined as the $n\\times n$ matrix $C$ with $C_{i,j} = \\min_{k}\\{A_{i,k} + B_{k,j}\\}$. The fastest known algorithm for this task [Chi, Duan, Xie, and Zhang, STOC'22] runs in $n^{(ω+3)/2+o(1)} = O(n^{2.686})$ time, significantly improving over the brute-force cubic algorithm. However, its main disadvantage is that it requires randomization, which is then inherited by all downstream applications. Our main result is a deterministic algorithm for Monotone Min-Plus product with the same time complexity $n^{(ω+3)/2+o(1)} = O(n^{2.686})$ as its randomized counterpart, improving upon the previous deterministic bound $O(n^{2.875})$ [Gu, Polak, Vassilevska Williams, and Xu, ICALP'21]. Our derandomization also applies to previously studied extensions and variants (e.g., [Dürr, IPL'23]), including rectangular matrices, bounded range $[n^μ]$, and column-monotone matrices. As an immediate consequence, we derandomize state-of-the-art algorithms for multiple problems, including Language Edit Distance, RNA Folding, Optimum Stack Generation, unweighted Tree Edit Distance, Batched Range Mode, and Approximate All-Pairs Shortest Paths. Our techniques also yield a deterministic algorithm for the Monotone Min-Plus Convolution problem that runs in $n^{1.5+o(1)}$ time, nearly matching the best known randomized time complexity $\\widetilde{O}(n^{1.5})$ [Chi, Duan, Xie, and Zhang, STOC'22]. This algorithm can be used to derandomize state-of-the-art algorithms for Jumbled Indexing for binary strings and several variants of Knapsack.",
+    "url": "http://arxiv.org/abs/2605.07150v2",
+    "doi": null,
+    "categories": [
+      "cs.DS"
+    ],
+    "source": "arxiv",
+    "topics": [],
+    "_reason": "classifier error: HTTP Error 401: Unauthorized",
+    "added": "2026-07-13"
+  },
+  {
+    "id": "arxiv:2603.27736",
+    "title": "Universe Reduction for APSP: Equivalence of Three Fine-Grained Hypotheses",
+    "authors": [
+      "Nick Fischer"
+    ],
+    "year": 2026,
+    "venue": "preprint",
+    "abstract": "The APSP Hypothesis states that the All-Pairs Shortest Paths (APSP) problem requires time $n^{3-o(1)}$ on graphs with polynomially bounded integer edge weights. Two increasingly stronger assumptions are the Strong APSP Hypothesis and the Directed Unweighted APSP Hypothesis, which state that the fastest-known APSP algorithms on graphs with small weights and unweighted graphs, respectively, are best-possible. In this paper, we design an efficient universe reduction for APSP, which proves that these three hypotheses are, in fact, equivalent, conditioned on $ω= 2$ and a plausible additive combinatorics assumption. Along the way, we resolve the fine-grained complexity of many long-standing graph and matrix problems with \"intermediate\" complexity such as Node-Weighted APSP, All-Pairs Bottleneck Paths, Monotone Min-Plus Product in certain settings, and many others, by designing matching APSP-based lower bounds.",
+    "url": "http://arxiv.org/abs/2603.27736v1",
+    "doi": null,
+    "categories": [
+      "cs.DS"
+    ],
+    "source": "arxiv",
+    "topics": [],
+    "_reason": "classifier error: HTTP Error 401: Unauthorized",
+    "added": "2026-07-13"
+  },
+  {
+    "id": "arxiv:2602.20136",
+    "title": "On a discrete max-plus transportation problem",
+    "authors": [
+      "Sergio Mayorga",
+      "Eugene Stepanov",
+      "Pedro Barrios"
+    ],
+    "year": 2026,
+    "venue": "preprint",
+    "abstract": "We provide an explicit algorithm to solve the idempotent analogue of the discrete Monge-Kantorovich optimal mass transportation problem with the usual real number field replaced by the tropical (max-plus) semiring, in which addition is defined as the maximum and product is defined as usual addition, with minus infinity and zero playing the roles of additive and multiplicative identities. Such a problem may be naturally called tropical or \"max-plus\" optimal transportation problem. We show that the solutions to the latter, called the optimal tropical plans, may not correspond to perfect matchings even if the data (max-plus probability measures) have all weights equal to zero, in contrast with the classical discrete optimal transportation analogue, where perfect matching optimal plans in similar situations always exist. Nevertheless, in some randomized situation the existence of perfect matching optimal tropical plans may occur rather frequently. At last, we prove that the uniqueness of solutions of the optimal tropical transportation problem is quite rare.",
+    "url": "http://arxiv.org/abs/2602.20136v1",
+    "doi": null,
+    "categories": [
+      "math.OC",
+      "math.CO",
+      "math.PR"
+    ],
+    "source": "arxiv",
+    "topics": [],
+    "_reason": "classifier error: HTTP Error 401: Unauthorized",
+    "added": "2026-07-13"
+  }
+]
