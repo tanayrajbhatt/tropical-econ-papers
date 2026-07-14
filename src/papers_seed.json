@@ -1,0 +1,67 @@
+[
+  {
+    "id": "arxiv:1706.07067",
+    "title": "Understanding Preferences: \"Demand Types\", and the Existence of Equilibrium with Indivisibilities",
+    "authors": ["Elizabeth Baldwin", "Paul Klemperer"],
+    "year": 2019,
+    "venue": "Econometrica",
+    "abstract": "An Equivalence Theorem between geometric structures and utility functions allows new methods for understanding preferences. The classification of valuations into \"Demand Types\" incorporates existing definitions (substitutes, complements, strong substitutes) and permits new ones. A Unimodularity Theorem generalises previous results about when competitive equilibrium exists for indivisible goods, using tropical hypersurfaces and the geometry of the locus of indifference prices.",
+    "url": "https://arxiv.org/abs/1706.07067",
+    "doi": "10.3982/ECTA13693",
+    "topics": ["auction theory", "equilibrium", "indivisibilities", "demand types"],
+    "added": "2024-01-01",
+    "source": "seed"
+  },
+  {
+    "id": "arxiv:1505.05737",
+    "title": "Product-Mix Auctions and Tropical Geometry",
+    "authors": ["Ngoc Mai Tran", "Josephine Yu"],
+    "year": 2019,
+    "venue": "Mathematics of Operations Research",
+    "abstract": "In a recent and ongoing work, Baldwin and Klemperer explored a connection between tropical geometry and economics. They gave a sufficient condition for the existence of competitive equilibrium in product-mix auctions of indivisible goods. This paper reveals the connection between this condition and the theory of tropical intersection products, giving a geometric interpretation and a characterization via tropical hypersurfaces.",
+    "url": "https://arxiv.org/abs/1505.05737",
+    "doi": "10.1287/moor.2018.0975",
+    "topics": ["auction theory", "product-mix", "equilibrium"],
+    "added": "2024-01-01",
+    "source": "seed"
+  },
+  {
+    "id": "arxiv:1606.04880",
+    "title": "Tropical Geometry and Mechanism Design",
+    "authors": ["Robert Alexander Crowell", "Ngoc Mai Tran"],
+    "year": 2016,
+    "venue": "preprint",
+    "abstract": "We develop a novel framework to construct and analyze finite valued, multidimensional mechanisms using tropical convex geometry. We geometrically characterize incentive compatibility using cells in the tropical convex hull of the type set. These cells are the sets of incentive compatible payments and form tropical simplices. We derive a new geometric characterization of revenue equivalence and show how to handle multidimensional mechanisms in its absence, with an interpretation in terms of information rents.",
+    "url": "https://arxiv.org/abs/1606.04880",
+    "doi": null,
+    "topics": ["mechanism design", "incentive compatibility", "revenue equivalence", "tropical convexity"],
+    "added": "2024-01-01",
+    "source": "seed"
+  },
+  {
+    "id": "arxiv:1710.05218",
+    "title": "Two-player incentive compatible outcome functions are affine maximizers",
+    "authors": ["Bo Lin", "Ngoc Mai Tran"],
+    "year": 2018,
+    "venue": "Linear Algebra and its Applications",
+    "abstract": "Using tropical geometry and the theory of tropical hyperplane arrangements, we show that in the two-player setting every incentive compatible outcome function that satisfies a mild non-degeneracy condition is an affine maximizer, sharpening the mechanism-design characterization of implementable outcome functions.",
+    "url": "https://arxiv.org/abs/1710.05218",
+    "doi": null,
+    "topics": ["mechanism design", "incentive compatibility", "affine maximizers"],
+    "added": "2024-01-01",
+    "source": "seed"
+  },
+  {
+    "id": "arxiv:2412.07946",
+    "title": "The Economics of Equilibrium with Indivisible Goods",
+    "authors": ["Ravi Jagadeesan", "Alexander Teytelboym"],
+    "year": 2024,
+    "venue": "preprint",
+    "abstract": "We study competitive equilibrium in economies with indivisible goods, relating the structure of demand to the tropical-geometric approach of Baldwin and Klemperer. We analyze the locus of indifference prices, its decomposition into facets, and the conditions on valuations under which competitive equilibrium is guaranteed to exist.",
+    "url": "https://arxiv.org/abs/2412.07946",
+    "doi": null,
+    "topics": ["equilibrium", "indivisibilities", "demand types"],
+    "added": "2024-01-01",
+    "source": "seed"
+  }
+]

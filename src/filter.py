@@ -26,6 +26,14 @@ one side in passing.
 Here are positive examples of the target class:
 - Baldwin & Klemperer, "Demand Types and Equilibrium with Indivisibilities" (tropical hypersurface arrangements for auction equilibrium)
 - Tran & Yu, "Product-Mix Auctions and Tropical Geometry"
+- Crowell & Tran, "Tropical Geometry and Mechanism Design" (incentive compatibility, revenue equivalence)
+
+Here are NEGATIVE examples that must be EXCLUDED (these look tempting but are pure math):
+- A paper on tropical algebraic degree of network games as a computational/algebraic-geometry result, where "game" is only a source of polynomial equations and there is no economic question (no preferences, welfare, incentives, market, or equilibrium analysis in the economic sense).
+- A paper on max-plus algebra spectral theory or tropical linear systems with no economic model.
+- Any paper whose primary contribution is a theorem in combinatorics, algebraic geometry, or optimization, even if an economic application is mentioned in one sentence.
+
+Decision rule: INCLUDE only if the paper contains a genuine ECONOMIC question — about preferences, valuations, incentives, welfare, prices, competitive equilibrium, mechanism/auction design, or strategic behavior with economic payoffs — AND uses tropical/min-plus machinery to address it. If the economics is merely a label, source of equations, or passing motivation, EXCLUDE. When in doubt, EXCLUDE and set relevant=false.
 
 Respond with ONLY a JSON object: {"relevant": true|false, "reason": "<one sentence>", "topics": ["...","..."]}
 
@@ -43,12 +51,19 @@ def prefilter(paper):
     return (has_trop and has_econ) or (has_trop and cross_listed)
 
 
+class AuthError(Exception):
+    """Raised when the Anthropic API rejects the key -- fatal, abort the run."""
+
+
 def classify(paper):
     """Ask Claude whether the paper is in-scope. Returns dict or None on error."""
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key:
-        # No key: fall back to prefilter verdict, flag for manual review.
-        return {"relevant": True, "reason": "prefilter only (no API key)", "topics": []}
+        # No key: do NOT silently pass everything. Mark as needs-review so the
+        # human sees it, but make the missing-key situation obvious.
+        return {"relevant": True,
+                "reason": "NEEDS REVIEW - classifier skipped, ANTHROPIC_API_KEY not set",
+                "topics": []}
     prompt = CLASSIFY_PROMPT.replace("{title}", paper.get("title", "")) \
                             .replace("{abstract}", paper.get("abstract", "")[:2000])
     body = json.dumps({
@@ -66,9 +81,21 @@ def classify(paper):
             data = json.loads(r.read())
         text = "".join(b["text"] for b in data["content"] if b["type"] == "text")
         return json.loads(text.strip().strip("`").replace("json\n", "", 1))
+    except urllib.error.HTTPError as e:
+        if e.code in (401, 403):
+            raise AuthError(
+                "Anthropic API rejected the key (HTTP %d). Check that "
+                "ANTHROPIC_API_KEY is set to a valid key." % e.code) from e
+        print(f"WARN classify failed for {paper['id']}: {e}")
+        # FAIL CLOSED: an error must never silently admit a paper.
+        return {"relevant": False,
+                "reason": f"classifier error ({e}) - dropped, re-run to retry",
+                "topics": []}
     except Exception as e:
         print(f"WARN classify failed for {paper['id']}: {e}")
-        return {"relevant": True, "reason": f"classifier error: {e}", "topics": []}
+        return {"relevant": False,
+                "reason": f"classifier error ({e}) - dropped, re-run to retry",
+                "topics": []}
 
 
 def run(candidates, known_ids):

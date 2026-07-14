@@ -8,39 +8,20 @@
     ],
     "year": 2019,
     "venue": "Econometrica",
-    "abstract": "We provide a new taxonomy of valuations over indivisible goods using tropical geometry and the theory of tropical hypersurface arrangements, characterizing which classes of preferences guarantee competitive equilibrium existence.",
+    "abstract": "An Equivalence Theorem between geometric structures and utility functions allows new methods for understanding preferences. The classification of valuations into \"Demand Types\" incorporates existing definitions (substitutes, complements, strong substitutes) and permits new ones. A Unimodularity Theorem generalises previous results about when competitive equilibrium exists for indivisible goods, using tropical hypersurfaces and the geometry of the locus of indifference prices.",
     "url": "https://arxiv.org/abs/1706.07067",
     "doi": "10.3982/ECTA13693",
     "topics": [
       "auction theory",
       "equilibrium",
-      "indivisibilities"
+      "indivisibilities",
+      "demand types"
     ],
     "added": "2024-01-01",
     "source": "seed"
   },
   {
-    "id": "arxiv:1911.12237",
-    "title": "The Tropical Geometry of Shortest Paths",
-    "authors": [
-      "Ngoc Mai Tran",
-      "Josephine Yu"
-    ],
-    "year": 2019,
-    "venue": "preprint",
-    "abstract": "We study min-plus (tropical) linear algebra and its connection to combinatorial optimization problems that arise in economic network models.",
-    "url": "https://arxiv.org/abs/1911.12237",
-    "doi": null,
-    "topics": [
-      "min-plus algebra",
-      "networks",
-      "optimization"
-    ],
-    "added": "2024-01-01",
-    "source": "seed"
-  },
-  {
-    "id": "arxiv:2004.06429",
+    "id": "arxiv:1505.05737",
     "title": "Product-Mix Auctions and Tropical Geometry",
     "authors": [
       "Ngoc Mai Tran",
@@ -48,9 +29,9 @@
     ],
     "year": 2019,
     "venue": "Mathematics of Operations Research",
-    "abstract": "We use tropical geometry to analyze the product-mix auction of Klemperer, giving a geometric characterization of competitive equilibrium and its existence conditions via tropical hypersurfaces.",
-    "url": "https://arxiv.org/abs/2004.06429",
-    "doi": null,
+    "abstract": "In a recent and ongoing work, Baldwin and Klemperer explored a connection between tropical geometry and economics. They gave a sufficient condition for the existence of competitive equilibrium in product-mix auctions of indivisible goods. This paper reveals the connection between this condition and the theory of tropical intersection products, giving a geometric interpretation and a characterization via tropical hypersurfaces.",
+    "url": "https://arxiv.org/abs/1505.05737",
+    "doi": "10.1287/moor.2018.0975",
     "topics": [
       "auction theory",
       "product-mix",
@@ -60,35 +41,214 @@
     "source": "seed"
   },
   {
-    "id": "arxiv:2604.17741",
-    "title": "The Algebraic Degree of Network Games via Tropical Geometry: A Geometric Perspective on Datta's Formula",
+    "id": "arxiv:1606.04880",
+    "title": "Tropical Geometry and Mechanism Design",
     "authors": [
-      "Hangkun Hu",
-      "Jingyi Wang",
-      "Minggang Wang"
+      "Robert Alexander Crowell",
+      "Ngoc Mai Tran"
     ],
-    "year": 2026,
+    "year": 2016,
     "venue": "preprint",
-    "abstract": "The algebraic degree of a network game measures the complexity of its totally mixed Nash equilibria. For sparse multilinear network games, Datta's formula expresses this degree combinatorially in terms of a permanent, but the geometric origin of this formula has remained unclear. In this paper, we provide a tropical-geometric derivation of Datta's formula by identifying totally mixed equilibria with stable intersection points of tropical hypersurfaces associated with the indifference equations. We show that the mixed cells arising from the multilinear Newton polytope structure induce the cycle-cover combinatorics of the polynomial graph, so that the permanent appears as a tropical intersection count. This interpretation yields several structural consequences. We prove that the algebraic degree is multiplicative over strongly connected components, and we establish a sharp contrast between two basic multilayer coupling mechanisms: Cartesian-type couplings remain bounded through a transfer-matrix trace formula, whereas tensor-type couplings exhibit exponential growth governed by the permanent of a local gadget. These results show that algebraic degree provides a structural complexity invariant for network architecture. We further illustrate the theory on coupled cyclic games and networked energy-market models, and we support the theoretical predictions with numerical experiments based on homotopy continuation.",
-    "url": "http://arxiv.org/abs/2604.17741v1",
+    "abstract": "We develop a novel framework to construct and analyze finite valued, multidimensional mechanisms using tropical convex geometry. We geometrically characterize incentive compatibility using cells in the tropical convex hull of the type set. These cells are the sets of incentive compatible payments and form tropical simplices. We derive a new geometric characterization of revenue equivalence and show how to handle multidimensional mechanisms in its absence, with an interpretation in terms of information rents.",
+    "url": "https://arxiv.org/abs/1606.04880",
     "doi": null,
-    "source": "arxiv",
-    "topics": [],
-    "added": "2026-07-11"
+    "topics": [
+      "mechanism design",
+      "incentive compatibility",
+      "revenue equivalence",
+      "tropical convexity"
+    ],
+    "added": "2024-01-01",
+    "source": "seed"
   },
   {
-    "id": "arxiv:2603.05461",
-    "title": "Equilibrium for max-plus payoff",
+    "id": "arxiv:1710.05218",
+    "title": "Two-player incentive compatible outcome functions are affine maximizers",
     "authors": [
-      "Taras Radul"
+      "Bo Lin",
+      "Ngoc Mai Tran"
     ],
-    "year": 2026,
-    "venue": "preprint",
-    "abstract": "We study equilibrium concepts in non-cooperative games under uncertainty where both beliefs and mixed strategies are represented by non-additive measures (capacities). In contrast to the classical Nash framework based on additive probabilities and linear convexity, we employ capacities and max-plus integrals to model qualitative and idempotent decision criteria. Two equilibrium notions are investigated: Nash equilibrium in mixed strategies expressed by capacities, and equilibrium under uncertainty in the sense of Dow and Werlang, where players choose pure strategies but evaluate payoffs with respect to non-additive beliefs. For games with compact strategy spaces and continuous payoffs, we establish existence results for both equilibrium concepts using abstract convexity techniques and a Kakutani-type fixed point theorem.",
-    "url": "http://arxiv.org/abs/2603.05461v1",
+    "year": 2018,
+    "venue": "Linear Algebra and its Applications",
+    "abstract": "Using tropical geometry and the theory of tropical hyperplane arrangements, we show that in the two-player setting every incentive compatible outcome function that satisfies a mild non-degeneracy condition is an affine maximizer, sharpening the mechanism-design characterization of implementable outcome functions.",
+    "url": "https://arxiv.org/abs/1710.05218",
     "doi": null,
-    "source": "arxiv",
-    "topics": [],
-    "added": "2026-07-11"
+    "topics": [
+      "mechanism design",
+      "incentive compatibility",
+      "affine maximizers"
+    ],
+    "added": "2024-01-01",
+    "source": "seed"
+  },
+  {
+    "id": "arxiv:2412.07946",
+    "title": "The Economics of Equilibrium with Indivisible Goods",
+    "authors": [
+      "Ravi Jagadeesan",
+      "Alexander Teytelboym"
+    ],
+    "year": 2024,
+    "venue": "preprint",
+    "abstract": "We study competitive equilibrium in economies with indivisible goods, relating the structure of demand to the tropical-geometric approach of Baldwin and Klemperer. We analyze the locus of indifference prices, its decomposition into facets, and the conditions on valuations under which competitive equilibrium is guaranteed to exist.",
+    "url": "https://arxiv.org/abs/2412.07946",
+    "doi": null,
+    "topics": [
+      "equilibrium",
+      "indivisibilities",
+      "demand types"
+    ],
+    "added": "2024-01-01",
+    "source": "seed"
+  },
+  {
+    "id": "s2:a9c2ee19c1f7a91527ec9efa5bd07f47d85f69e4",
+    "title": "TROPICAL GEOMETRY TO ANALYSE DEMAND",
+    "authors": [
+      "E. Baldwin",
+      "P. Klemperer"
+    ],
+    "year": 2014,
+    "venue": "preprint",
+    "abstract": "",
+    "url": "https://www.semanticscholar.org/paper/a9c2ee19c1f7a91527ec9efa5bd07f47d85f69e4",
+    "doi": null,
+    "source": "snowball:cited-by:arxiv:1505.05737",
+    "topics": [
+      "tropical geometry",
+      "demand analysis",
+      "equilibrium with indivisibilities"
+    ]
+  },
+  {
+    "id": "arxiv:1606.09165",
+    "title": "The Cayley Trick for Tropical Hypersurfaces with a View Toward Ricardian Economics",
+    "authors": [
+      "M. Joswig"
+    ],
+    "year": 2016,
+    "venue": "preprint",
+    "abstract": "The purpose of this survey is to summarize known results about tropical hypersurfaces and the Cayley Trick from polyhedral geometry. This allows for a systematic study of arrangements of tropical hypersurfaces and, in particular, arrangements of tropical hyperplanes. A recent application to the Ricardian theory of trade from mathematical economics is explored.",
+    "url": "https://arxiv.org/abs/1606.09165",
+    "doi": "10.1007/978-3-319-61943-9_7",
+    "source": "snowball:cites:arxiv:1505.05737",
+    "topics": [
+      "tropical geometry",
+      "tropical hypersurface arrangements",
+      "Cayley Trick",
+      "Ricardian trade theory",
+      "mathematical economics"
+    ]
+  },
+  {
+    "id": "arxiv:1901.02363",
+    "title": "A bilevel optimization model for load balancing in mobile networks through price incentives",
+    "authors": [
+      "Jean-Bernard Eytard",
+      "M. Akian",
+      "M. Bouhtou",
+      "S. Gaubert"
+    ],
+    "year": 2017,
+    "venue": "International Symposium on Modeling and Optimization in Mobile, Ad-Hoc and Wireless Networks",
+    "abstract": "We propose a model of incentives for data pricing in large mobile networks, in which an operator wishes to balance the number of connexions (active users) of different classes of users in the different cells and at different time instants, in order to ensure them a sufficient quality of service. We assume that each user has a given total demand per day for different types of applications, which he may assign to different time slots and locations, depending on his own mobility, on his preferences and on price discounts proposed by the operator. We show that this can be cast as a bilevel programming problem with a special structure allowing us to develop a polynomial time decomposition algorithm suitable for large networks. First, we determine the optimal number of connexions (which maximizes a measure of balance); next, we solve an inverse problem and determine the prices generating this traffic. Our results exploit a recently developed application of tropical geometry methods to mixed auction problems, as well as algorithms in discrete convexity (minimization of discrete convex functions in the sense of Murota). We finally present an application on real data provided by Orange and we show the efficiency of the model to reduce the peaks of congestion.",
+    "url": "https://arxiv.org/abs/1901.02363",
+    "doi": "10.23919/WIOPT.2017.7959902",
+    "source": "snowball:cites:arxiv:1505.05737",
+    "topics": [
+      "price incentives",
+      "product-mix auctions",
+      "tropical geometry",
+      "discrete convexity",
+      "mechanism/pricing design"
+    ]
+  },
+  {
+    "id": "s2:cd8d47b2d213228bd4aab1ca4ff61846339a4d7a",
+    "title": "Une approche par convexité discrète et géométrie tropicale de la programmation bi-niveau : comparaison avec un problème d ’ équilibre compétitif",
+    "authors": [
+      "J. Eytard",
+      "Marianne Akian",
+      "Mustapha Bouhtou",
+      "S. Gaubert",
+      "Gleb A. Koshevoy"
+    ],
+    "year": 2018,
+    "venue": "preprint",
+    "abstract": "",
+    "url": "https://www.semanticscholar.org/paper/cd8d47b2d213228bd4aab1ca4ff61846339a4d7a",
+    "doi": null,
+    "source": "snowball:cites:arxiv:1505.05737",
+    "topics": [
+      "tropical geometry",
+      "discrete convexity",
+      "bilevel programming",
+      "competitive equilibrium"
+    ]
+  },
+  {
+    "id": "arxiv:1905.02287",
+    "title": "The Finite Matroid-Based Valuation Conjecture is False",
+    "authors": [
+      "N. Tran"
+    ],
+    "year": 2019,
+    "venue": "SIAM Journal on applied algebra and geometry",
+    "abstract": "The matroid-based valuation conjecture of Ostrovsky and Paes Leme states that all gross substitutes valuations on $n$ items can be produced from merging and endowments of weighted ranks of matroids defined on at most $m(n)$ items. We show that if $m(n) = n$, then this statement holds for $n \\leq 3$ and fails for all $n \\geq 4$. In particular, the set of gross substitutes valuations on $n \\geq 4$ items is strictly larger than the set of matroid based valuations defined on the ground set $[n]$. Our proof uses tropical geometry, matroid theory and discrete convex analysis to explicitly construct a large family of counter-examples. It indicates that merging and endowment by themselves are poor operations to generate gross substitutes valuations. We also connect the general MBV conjecture and related questions to long-standing open problems in matroid theory, and conclude with open questions at the intersection of this field and economics.",
+    "url": "https://arxiv.org/abs/1905.02287",
+    "doi": "10.1137/19m1304295",
+    "source": "snowball:cites:arxiv:1505.05737",
+    "topics": [
+      "gross substitutes valuations",
+      "matroid-based valuations",
+      "tropical geometry",
+      "discrete convex analysis",
+      "auction theory"
+    ]
+  },
+  {
+    "id": "arxiv:2106.01930",
+    "title": "Tropical linear regression and mean payoff games: or, how to measure the distance to equilibria",
+    "authors": [
+      "M. Akian",
+      "S. Gaubert",
+      "Yang Qi",
+      "Omar Saadi"
+    ],
+    "year": 2021,
+    "venue": "SIAM Journal on Discrete Mathematics",
+    "abstract": "We study a tropical linear regression problem consisting in finding the best approximation of a set of points by a tropical hyperplane. We establish a strong duality theorem, showing that the value of this problem coincides with the maximal radius of a Hilbert's ball included in a tropical polyhedron. We also show that this regression problem is polynomial-time equivalent to mean payoff games. We illustrate our results by solving an inverse problem from auction theory. In this setting, a tropical hyperplane represents the set of equilibrium prices. Tropical linear regression allows us to quantify the distance of a market to the set of equilibria, and infer secret preferences of a decision maker.",
+    "url": "https://arxiv.org/abs/2106.01930",
+    "doi": "10.1137/21m1428297",
+    "source": "snowball:cites:arxiv:1505.05737",
+    "topics": [
+      "tropical geometry",
+      "auction theory",
+      "competitive equilibrium",
+      "mean payoff games",
+      "preference inference"
+    ]
+  },
+  {
+    "id": "arxiv:2304.00210",
+    "title": "Max-Plus Synchronization in Decentralized Trading Systems",
+    "authors": [
+      "Hans Riess",
+      "Michael Munger",
+      "M. Zavlanos"
+    ],
+    "year": 2023,
+    "venue": "IEEE Conference on Decision and Control",
+    "abstract": "We introduce a decentralized mechanism for pricing and exchanging alternatives constrained by transaction costs. We characterize the time-invariant solutions of a heat equation involving a (weighted) Tarski Laplacian operator, defined for max-plus matrix-weighted graphs, as approximate equilibria of the trading system. We study algebraic properties of the solution sets as well as convergence behavior of the dynamical system. We apply these tools to the “economic problem” of allocating scarce resources among competing uses. Our theory suggests differences in competitive equilibrium, bargaining, or cost-benefit analysis, depending on the context, are largely due to differences in the way that transaction costs are incorporated into the decision-making process. We present numerical simulations of the synchronization algorithm (RRAggU), demonstrating our theoretical findings.",
+    "url": "https://arxiv.org/abs/2304.00210",
+    "doi": "10.1109/CDC49753.2023.10383918",
+    "source": "snowball:cites:arxiv:2106.01930",
+    "topics": [
+      "max-plus algebra",
+      "competitive equilibrium",
+      "pricing and exchange",
+      "transaction costs",
+      "decentralized mechanisms"
+    ]
   }
 ]
