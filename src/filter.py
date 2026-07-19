@@ -1,6 +1,7 @@
 """Two-stage relevance filter: cheap prefilter, then Claude adjudication."""
 import json
 import os
+import pathlib
 import urllib.request
 
 from fetch import TROPICAL_TERMS, ECON_TERMS
@@ -23,10 +24,16 @@ EXCLUDE: papers about tropical agriculture/climate/biology; pure tropical geomet
 with no economics; pure economics with no tropical methods; papers that only mention \
 one side in passing.
 
-Here are positive examples of the target class:
+Here are positive examples of the target class -- note they span MANY fields of
+economics, not just auctions/mechanism design. The economic application may be in
+ANY field: trade, macro/dynamics, IO/pricing, matching, decision theory, finance,
+game theory, econometrics. Do not require the paper to resemble the auction papers:
 - Baldwin & Klemperer, "Demand Types and Equilibrium with Indivisibilities" (tropical hypersurface arrangements for auction equilibrium)
 - Tran & Yu, "Product-Mix Auctions and Tropical Geometry"
 - Crowell & Tran, "Tropical Geometry and Mechanism Design" (incentive compatibility, revenue equivalence)
+- Shiozawa, "International Trade Theory and Exotic Algebras" (min-times/subtropical semirings for Ricardian trade)
+- Akian, Bouhtou, Eytard & Gaubert, "A Bilevel Optimization Model for Load Balancing... through Price Incentives" (tropical geometry and discrete convexity for pricing)
+- Papers using the demand-types / strong-substitutes framework (which is tropical-hypersurface machinery) even when the abstract never says "tropical".
 
 Here are NEGATIVE examples that must be EXCLUDED (these look tempting but are pure math):
 - A paper on tropical algebraic degree of network games as a computational/algebraic-geometry result, where "game" is only a source of polynomial equations and there is no economic question (no preferences, welfare, incentives, market, or equilibrium analysis in the economic sense).
@@ -55,8 +62,46 @@ class AuthError(Exception):
     """Raised when the Anthropic API rejects the key -- fatal, abort the run."""
 
 
+CACHE_PATH = pathlib.Path(__file__).resolve().parent.parent / "data" / "classify_cache.json"
+_cache = None
+
+
+def _load_cache():
+    global _cache
+    if _cache is None:
+        try:
+            _cache = json.loads(CACHE_PATH.read_text(encoding="utf-8"))
+        except Exception:
+            _cache = {}
+    return _cache
+
+
+def _save_cache():
+    try:
+        CACHE_PATH.write_text(json.dumps(_cache, indent=1, ensure_ascii=False),
+                              encoding="utf-8")
+    except Exception as e:
+        print(f"WARN could not save classify cache: {e}")
+
+
 def classify(paper):
-    """Ask Claude whether the paper is in-scope. Returns dict or None on error."""
+    """Ask Claude whether the paper is in-scope. Verdicts are cached by paper
+    id in data/classify_cache.json so re-runs and weekly runs never re-pay
+    for papers already judged."""
+    cache = _load_cache()
+    pid = paper.get("id")
+    if pid and pid in cache:
+        return cache[pid]
+    verdict = _classify_uncached(paper)
+    # Only cache real verdicts, not skip/error placeholders.
+    if pid and "classifier error" not in verdict.get("reason", "") \
+            and "classifier skipped" not in verdict.get("reason", ""):
+        cache[pid] = verdict
+        _save_cache()
+    return verdict
+
+
+def _classify_uncached(paper):
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key:
         # No key: do NOT silently pass everything. Mark as needs-review so the

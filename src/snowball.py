@@ -122,14 +122,22 @@ def snowball(corpus, depth=None, max_candidates=500, classify_fn=None):
     stopping early when the frontier is empty (fixpoint) or when
     `max_candidates` is reached.
 
+    Gate semantics:
+      - Direct neighbors of the SEED corpus (hop 1) skip the tropical
+        keyword gate entirely -- they are judged only by the classifier.
+        This catches papers that build on the corpus without repeating
+        "tropical" in the abstract (e.g. "Strong Substitutes...",
+        "Equilibrium Existence Duality", "Combinatorial Contracts
+        Through Demand Types").
+      - Deeper hops (2+) apply the tropical gate as usual, to keep the
+        closure from wandering into unrelated auction / contract theory.
+
     If `classify_fn` is given, every gated paper is classified immediately
-    and ONLY papers judged relevant join the frontier. This confines the
-    transitive closure to the tropical-ECON subgraph instead of the whole
-    tropical-geometry literature. Each returned candidate then carries
-    "_relevant", "_reason", and "topics".
+    and ONLY papers judged relevant join the frontier.
     """
     depth = depth or int(os.environ.get("SNOWBALL_DEPTH", "1"))
     known = {p["id"] for p in corpus}
+    seed_ids = set(known)  # frozen: only actual seed papers get the free pass
     frontier = list(corpus)
     seen_s2 = set()
     candidates = {}
@@ -148,6 +156,8 @@ def snowball(corpus, depth=None, max_candidates=500, classify_fn=None):
             if not sid or sid in seen_s2:
                 continue
             seen_s2.add(sid)
+            # Direct neighbors of the seed corpus skip the tropical gate.
+            is_seed_neighbor = paper["id"] in seed_ids
             for edge, relation in (("citations", "cites"),
                                    ("references", "cited-by")):
                 try:
@@ -158,8 +168,8 @@ def snowball(corpus, depth=None, max_candidates=500, classify_fn=None):
                 time.sleep(1)  # politeness between calls
                 for item in items:
                     text = f"{item.get('title','')} {item.get('abstract','')}"
-                    if not _has_tropical(text):
-                        continue  # hard tropical gate
+                    if not is_seed_neighbor and not _has_tropical(text):
+                        continue  # tropical gate at hop 2+
                     cand = _to_candidate(item, paper["id"], relation)
                     if cand["id"] in known or cand["id"] in candidates:
                         continue

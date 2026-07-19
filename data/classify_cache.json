@@ -1,0 +1,3671 @@
+{
+ "probe": {
+  "relevant": true,
+  "reason": "The paper applies tropical geometry to characterize competitive equilibrium in product-mix auctions, a genuine economic problem.",
+  "topics": [
+   "tropical geometry",
+   "product-mix auctions",
+   "competitive equilibrium",
+   "mechanism design"
+  ]
+ },
+ "doi:10.1007/s10589-024-00642-z": {
+  "relevant": false,
+  "reason": "This is a pure optimization paper about convergence properties of algorithms for symmetric cone programming with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "optimization",
+   "symmetric cone programming",
+   "algorithm convergence"
+  ]
+ },
+ "doi:10.1007/s10589-024-00614-3": {
+  "relevant": false,
+  "reason": "This is a numerical optimization paper on semidefinite programming with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "semidefinite programming",
+   "interior point methods",
+   "numerical optimization"
+  ]
+ },
+ "arxiv:2208.00799": {
+  "relevant": false,
+  "reason": "This is a pure optimization paper on interior proximal gradient methods with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "nonconvex optimization",
+   "interior point methods",
+   "proximal algorithms"
+  ]
+ },
+ "doi:10.1007/s10851-019-00916-w": {
+  "relevant": false,
+  "reason": "This paper is about a proximal interior point optimization algorithm applied to image processing, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "optimization",
+   "image processing",
+   "interior point methods"
+  ]
+ },
+ "arxiv:1804.08736": {
+  "relevant": false,
+  "reason": "This is a pure optimization paper on primal-dual proximal splitting methods with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "convex optimization",
+   "proximal splitting"
+  ]
+ },
+ "doi:10.23952/jnfa.2020.44": {
+  "relevant": false,
+  "reason": "This is a pure optimization/functional analysis paper on iterative methods in Hilbert spaces with no tropical/min-plus machinery and no genuine economic application.",
+  "topics": [
+   "optimization",
+   "equilibrium problems",
+   "iterative methods"
+  ]
+ },
+ "s2:3cd763118fa9a0fa42f2168ca125b41e0f7f4d2f": {
+  "relevant": false,
+  "reason": "This is a journal name with no abstract or content to evaluate for tropical methods or economic application.",
+  "topics": []
+ },
+ "arxiv:1703.05705": {
+  "relevant": false,
+  "reason": "This is a pure optimization paper on proximal point methods with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "optimization",
+   "proximal point method",
+   "convergence analysis"
+  ]
+ },
+ "doi:10.1007/s10957-016-0989-8": {
+  "relevant": false,
+  "reason": "This is a pure optimization/convex analysis paper on central paths in symmetric cone programming with no economic model or tropical/min-plus machinery.",
+  "topics": [
+   "symmetric cone programming",
+   "central paths",
+   "convex optimization"
+  ]
+ },
+ "doi:10.1080/02331934.2016.1277998": {
+  "relevant": false,
+  "reason": "This is a pure mathematics/optimization paper on proximal distances over symmetric cones with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "convex optimization",
+   "symmetric cones",
+   "proximal methods"
+  ]
+ },
+ "arxiv:1609.07373": {
+  "relevant": false,
+  "reason": "This is an optimization/image processing paper on primal-dual block-coordinate descent methods with no tropical machinery and no economic application.",
+  "topics": [
+   "convex optimization",
+   "image processing",
+   "numerical methods"
+  ]
+ },
+ "arxiv:1511.06566": {
+  "relevant": false,
+  "reason": "This is an optimization paper on primal-dual methods for image processing with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "convex optimization",
+   "image processing"
+  ]
+ },
+ "arxiv:1508.07243": {
+  "relevant": false,
+  "reason": "This is an image processing paper on bilevel parameter learning for total variation regularization with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "image reconstruction",
+   "bilevel optimization",
+   "total variation regularization"
+  ]
+ },
+ "arxiv:1407.5611": {
+  "relevant": false,
+  "reason": "This is an optimization/convex analysis paper on proximal splitting algorithms with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "convex optimization",
+   "proximal algorithms",
+   "signal processing"
+  ]
+ },
+ "doi:10.1137/120886753": {
+  "relevant": false,
+  "reason": "This is a pure optimization/numerical analysis paper on convergence of ADMM for quadratic programs, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "optimization",
+   "ADMM",
+   "quadratic programming"
+  ]
+ },
+ "arxiv:1311.1756": {
+  "relevant": false,
+  "reason": "This is a pure convex optimization paper on proximal path-following algorithms with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "convex optimization",
+   "interior point methods",
+   "proximal algorithms"
+  ]
+ },
+ "doi:10.1137/120878951": {
+  "relevant": false,
+  "reason": "This is a pure optimization paper on convergence properties of ADMM for quadratic/linear programs, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "convex optimization",
+   "ADMM",
+   "convergence analysis"
+  ]
+ },
+ "doi:10.12785/AMIS/070624": {
+  "relevant": false,
+  "reason": "This is a pure optimization paper on convergence of interior-point methods for symmetric cone linear programming, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "convex optimization",
+   "linear programming",
+   "interior-point methods"
+  ]
+ },
+ "arxiv:1208.3922": {
+  "relevant": false,
+  "reason": "This paper is about convergence analysis of an optimization algorithm (ADMM) with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "convex optimization",
+   "ADMM",
+   "convergence analysis"
+  ]
+ },
+ "arxiv:1104.1087": {
+  "relevant": false,
+  "reason": "This is a pure optimization/signal-processing paper on iterative thresholding algorithms with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "convex optimization",
+   "sparse regularization",
+   "numerical algorithms"
+  ]
+ },
+ "doi:10.1137/09076934X": {
+  "relevant": false,
+  "reason": "This is a paper on primal-dual optimization algorithms for imaging science, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "convex optimization",
+   "imaging science",
+   "primal-dual algorithms"
+  ]
+ },
+ "doi:10.1007/s10589-008-9227-0": {
+  "relevant": false,
+  "reason": "This is a pure optimization paper on proximal algorithms for symmetric cone programming with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "convex optimization",
+   "proximal algorithms",
+   "symmetric cone programming"
+  ]
+ },
+ "doi:10.1007/S10957-008-9422-2": {
+  "relevant": false,
+  "reason": "This paper is about semidefinite programming, proximal-point methods, and Riemannian geometry with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "semidefinite programming",
+   "optimization",
+   "Riemannian geometry"
+  ]
+ },
+ "arxiv:0709.1598": {
+  "relevant": false,
+  "reason": "This is a numerical analysis paper on optimization algorithms with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "optimization",
+   "sparse recovery",
+   "numerical analysis"
+  ]
+ },
+ "doi:10.1007/s10107-006-0075-3": {
+  "relevant": false,
+  "reason": "This paper concerns the logarithmic barrier method (an interior-point optimization technique) with no indication of tropical/min-plus machinery or a genuine economic application.",
+  "topics": [
+   "optimization",
+   "interior-point methods",
+   "logarithmic barrier"
+  ]
+ },
+ "doi:10.1080/10556780410001727718": {
+  "relevant": false,
+  "reason": "This paper concerns the analytic/geometric behavior of the central path in semidefinite optimization, with no tropical/min-plus machinery and no economic question.",
+  "topics": [
+   "semidefinite optimization",
+   "interior-point methods",
+   "central path"
+  ]
+ },
+ "doi:10.4171/IFB/97": {
+  "relevant": false,
+  "reason": "This paper is about a numerical algorithm for mean curvature motion, a topic in geometric PDEs with no tropical/min-plus machinery or economic application.",
+  "topics": [
+   "mean curvature motion",
+   "geometric PDEs",
+   "numerical algorithms"
+  ]
+ },
+ "doi:10.1007/s10107-003-0380-z": {
+  "relevant": false,
+  "reason": "This is a pure optimization/mathematics paper on interior point algorithms for symmetric cones with no tropical machinery and no economic application.",
+  "topics": [
+   "interior point methods",
+   "symmetric cones",
+   "convex optimization"
+  ]
+ },
+ "doi:10.1287/moor.27.3.585.312": {
+  "relevant": false,
+  "reason": "This is a pure optimization paper on log-barrier functions for nonlinear programs with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "nonlinear programming",
+   "interior-point methods",
+   "optimization"
+  ]
+ },
+ "doi:10.1051/M2AN:2000104": {
+  "relevant": false,
+  "reason": "This is a paper on total variation regularization in mathematical analysis/image processing with no tropical machinery and no economic application.",
+  "topics": [
+   "total variation regularization",
+   "mathematical analysis"
+  ]
+ },
+ "doi:10.1007/bfb0096285": {
+  "relevant": false,
+  "reason": "This is a pure mathematics text on Jordan algebras with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "Jordan algebras",
+   "pure mathematics"
+  ]
+ },
+ "doi:10.1023/A:1018339901042": {
+  "relevant": false,
+  "reason": "This is a pure optimization paper on the central path for convex programming and duality, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "convex programming",
+   "central path",
+   "duality theory",
+   "optimization"
+  ]
+ },
+ "doi:10.1137/S1052623496308618": {
+  "relevant": false,
+  "reason": "This is a pure optimization paper on convergence of interior-point algorithms for semidefinite programming, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "semidefinite programming",
+   "interior-point methods",
+   "convex optimization"
+  ]
+ },
+ "doi:10.1023/A:1009701824047": {
+  "relevant": false,
+  "reason": "This is a pure optimization/algebra paper on interior-point methods with no tropical machinery and no economic question.",
+  "topics": [
+   "Euclidean Jordan algebras",
+   "interior-point methods",
+   "optimization"
+  ]
+ },
+ "doi:10.1016/S0377-0427(97)00153-2": {
+  "relevant": false,
+  "reason": "This is a paper on interior-point optimization algorithms using Jordan algebra techniques, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "interior-point methods",
+   "Jordan algebras",
+   "optimization"
+  ]
+ },
+ "doi:10.1287/MOOR.22.1.1": {
+  "relevant": false,
+  "reason": "This is a pure optimization/interior-point methods paper with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "convex programming",
+   "interior-point methods",
+   "optimization"
+  ]
+ },
+ "doi:10.1137/S1052623495290179": {
+  "relevant": false,
+  "reason": "This is a pure optimization/numerical analysis paper on convergence rates of a splitting algorithm, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "optimization",
+   "forward-backward splitting",
+   "convergence analysis"
+  ]
+ },
+ "doi:10.1016/0167-2789(92)90242-F": {
+  "relevant": false,
+  "reason": "This is a paper on image processing noise removal with no tropical geometry or economic content.",
+  "topics": [
+   "image processing",
+   "total variation",
+   "noise removal"
+  ]
+ },
+ "doi:10.1137/0314056": {
+  "relevant": false,
+  "reason": "This is a paper on monotone operator theory and the proximal point algorithm in convex optimization, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "convex optimization",
+   "monotone operators",
+   "proximal point algorithm"
+  ]
+ },
+ "s2:None": {
+  "relevant": false,
+  "reason": "This is a paper on optimization algorithms (primal-dual hybrid gradient method) for imaging applications with no tropical/min-plus machinery and no economic question.",
+  "topics": [
+   "convex optimization",
+   "image processing",
+   "numerical methods"
+  ]
+ },
+ "s2:8fa360d2aa0fdbe6fb13350d0290a34e5c05e614": {
+  "relevant": false,
+  "reason": "This is a generic optimization topic with no tropical/min-plus machinery and no specific economic application described.",
+  "topics": [
+   "optimization",
+   "conic programming"
+  ]
+ },
+ "doi:10.1137/100814494": {
+  "relevant": false,
+  "reason": "This is a pure optimization/numerical analysis paper on convergence of primal-dual algorithms with no tropical/min-plus machinery and no economic model.",
+  "topics": [
+   "optimization",
+   "saddle-point problems",
+   "convergence analysis"
+  ]
+ },
+ "doi:10.1007/978-1-84800-155-8_7": {
+  "relevant": false,
+  "reason": "This is a paper on disciplined convex programming and software implementation for nonsmooth convex optimization, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "convex optimization",
+   "software"
+  ]
+ },
+ "doi:10.7151/DMDICO.1077": {
+  "relevant": false,
+  "reason": "This is a paper on optimization methods (interior proximal method for variational inequalities) with no tropical/min-plus machinery and no genuine economic application.",
+  "topics": [
+   "optimization",
+   "variational inequalities"
+  ]
+ },
+ "arxiv:2605.01886": {
+  "relevant": false,
+  "reason": "This is a pure algebraic-geometry/tropical result on scheme-theoretic degenerations of polynomial systems where 'network games' serve only as a source of equations with no economic question about preferences, welfare, incentives, or strategic payoffs.",
+  "topics": [
+   "tropical geometry",
+   "algebraic degree of games",
+   "valuation theory",
+   "pure mathematics"
+  ]
+ },
+ "arxiv:2604.17741": {
+  "relevant": false,
+  "reason": "The paper's primary contribution is a tropical-geometric derivation of an algebraic-degree formula counting mixed Nash equilibria as an algebraic/combinatorial complexity invariant, with no genuine economic analysis of preferences, welfare, incentives, or equilibrium behavior.",
+  "topics": [
+   "tropical geometry",
+   "algebraic degree",
+   "network games",
+   "computational complexity"
+  ]
+ },
+ "arxiv:2512.10614": {
+  "relevant": true,
+  "reason": "The paper studies an auction mechanism with valuations, substitutes conditions, bidding strategies, and value functions, using piecewise-linear/tropical-flavored machinery and the ordinary substitutes framework tied to demand-types/tropical hypersurface methods.",
+  "topics": [
+   "auctions",
+   "clock auctions",
+   "substitutes valuations",
+   "piecewise-linear value functions",
+   "mechanism design"
+  ]
+ },
+ "doi:10.1287/moor.2023.0127": {
+  "relevant": true,
+  "reason": "The paper designs a dynamic auction based on Baldwin and Klemperer's unimodular demand types framework, which is tropical-hypersurface machinery, addressing genuine economic questions of efficient allocation, equilibrium existence, and strategy-proofness.",
+  "topics": [
+   "auction design",
+   "demand types",
+   "competitive equilibrium with indivisibilities",
+   "mechanism design",
+   "tropical geometry"
+  ]
+ },
+ "arxiv:2312.01822": {
+  "relevant": false,
+  "reason": "This is a pure discrete convex analysis result on Minkowski summation and unimodularity with no economic question about preferences, prices, incentives, or equilibrium.",
+  "topics": [
+   "discrete convex analysis",
+   "Minkowski summation",
+   "unimodularity"
+  ]
+ },
+ "arxiv:2309.04181": {
+  "relevant": false,
+  "reason": "This matching paper uses concavity/balancedness and Scarf's algorithm from cooperative game theory but contains no tropical/min-plus mathematical machinery.",
+  "topics": [
+   "matching theory",
+   "cooperative games",
+   "stable matching"
+  ]
+ },
+ "doi:10.1016/j.jsc.2023.102224": {
+  "relevant": false,
+  "reason": "This is a pure computational algebraic geometry paper about parallel computation of tropical varieties and Grassmannians with no economic question or application.",
+  "topics": [
+   "tropical geometry",
+   "tropical Grassmannians",
+   "parallel computation"
+  ]
+ },
+ "doi:10.2140/astat.2022.13.1": {
+  "relevant": false,
+  "reason": "This paper concerns Gaussian entropy maps in valued fields, a pure mathematics topic in probability/algebra with no economic question about preferences, incentives, prices, or equilibrium.",
+  "topics": [
+   "valued fields",
+   "entropy",
+   "pure mathematics"
+  ]
+ },
+ "arxiv:2211.06887": {
+  "relevant": false,
+  "reason": "The paper studies stable matching via hypergraph combinatorics (odd-cycle conditions) without using tropical/min-plus geometry machinery.",
+  "topics": [
+   "matching theory",
+   "graph theory",
+   "stable matching"
+  ]
+ },
+ "doi:10.1086/722935": {
+  "relevant": true,
+  "reason": "The paper analyzes competitive equilibrium existence with indivisible goods using the demand-types/substitutability framework rooted in tropical hypersurface machinery, addressing a genuine economic question about prices and equilibrium.",
+  "topics": [
+   "competitive equilibrium",
+   "indivisible goods",
+   "substitutes",
+   "auction design",
+   "tropical/demand-types"
+  ]
+ },
+ "arxiv:2211.01907": {
+  "relevant": true,
+  "reason": "The paper uses polyhedral/tropical machinery (regular subdivisions, which are dual to tropical hypersurfaces) to characterize truthful incentive-compatible auction mechanisms, a genuine mechanism design question about incentives and allocations.",
+  "topics": [
+   "auctions",
+   "mechanism design",
+   "incentive compatibility",
+   "polyhedral geometry",
+   "regular subdivisions"
+  ]
+ },
+ "arxiv:2205.05599": {
+  "relevant": false,
+  "reason": "This is a pure matching theory paper using combinatorial/cycle conditions with no tropical, min-plus, or max-plus mathematical machinery.",
+  "topics": [
+   "two-sided matching",
+   "stable matching",
+   "complementary preferences"
+  ]
+ },
+ "arxiv:2202.05232": {
+  "relevant": false,
+  "reason": "The paper uses linear programming duality for matching with transfers but does not employ tropical/min-plus geometric machinery.",
+  "topics": [
+   "matching with transfers",
+   "linear programming duality",
+   "market equilibrium"
+  ]
+ },
+ "arxiv:2108.00979": {
+  "relevant": true,
+  "reason": "The paper analyzes optimal auction design and revenue using generalized permutahedra (polyhedral/tropical-adjacent combinatorial geometry) applied to a genuine mechanism design question about prices and revenue.",
+  "topics": [
+   "optimal auctions",
+   "mechanism design",
+   "generalized permutahedra",
+   "polyhedral geometry"
+  ]
+ },
+ "arxiv:2107.08813": {
+  "relevant": true,
+  "reason": "The paper uses discrete/tropical geometry (product-mix auctions, competitive equilibrium existence with substitutes/complements) to address a genuine economic question about competitive equilibrium and pricing in combinatorial auctions.",
+  "topics": [
+   "combinatorial auctions",
+   "competitive equilibrium",
+   "discrete geometry",
+   "product-mix auctions",
+   "pricing"
+  ]
+ },
+ "arxiv:2106.01930": {
+  "relevant": true,
+  "reason": "The paper applies tropical linear regression to auction theory, measuring distance to equilibrium prices and inferring preferences, which is a genuine economic application of tropical machinery.",
+  "topics": [
+   "tropical geometry",
+   "auction theory",
+   "equilibrium prices",
+   "mean payoff games",
+   "preference inference"
+  ]
+ },
+ "arxiv:2103.03418": {
+  "relevant": false,
+  "reason": "This paper uses integer programming and total unimodularity for stable matching but does not employ tropical/min-plus mathematical machinery.",
+  "topics": [
+   "matching theory",
+   "integer programming"
+  ]
+ },
+ "arxiv:2101.00767": {
+  "relevant": false,
+  "reason": "This is a pure mathematics paper on Gaussian distributions over valued fields with no economic model, question, or application.",
+  "topics": [
+   "tropical/non-archimedean geometry",
+   "probability on valued fields",
+   "supermodularity"
+  ]
+ },
+ "doi:10.1002/nav.21963": {
+  "relevant": false,
+  "reason": "The paper uses duality theory, optimization, and discrete convex analysis for Walrasian equilibria and auctions but does not employ tropical/min-plus/tropical-convexity machinery as its mathematical framework.",
+  "topics": [
+   "Walrasian equilibrium",
+   "auction design",
+   "discrete convex analysis",
+   "duality theory"
+  ]
+ },
+ "doi:10.25781/KAUST-CDBHK": {
+  "relevant": false,
+  "reason": "This paper applies tropical geometry to deep neural networks, a machine learning topic with no genuine economic question about preferences, prices, incentives, or equilibrium.",
+  "topics": [
+   "tropical geometry",
+   "deep neural networks",
+   "machine learning"
+  ]
+ },
+ "arxiv:2003.13752": {
+  "relevant": false,
+  "reason": "This is pure tropical/algebraic geometry computing tropical Grassmannians with no economic model or application whatsoever.",
+  "topics": [
+   "tropical Grassmannians",
+   "computational algebraic geometry",
+   "tropical varieties"
+  ]
+ },
+ "arxiv:2003.00362": {
+  "relevant": false,
+  "reason": "This is a statistical/probabilistic paper on max-linear structural equation models with noise, using max-plus algebra but with no economic question about preferences, prices, incentives, or equilibrium.",
+  "topics": [
+   "max-linear models",
+   "max-plus algebra",
+   "causal inference",
+   "statistics"
+  ]
+ },
+ "arxiv:2002.08838": {
+  "relevant": false,
+  "reason": "This paper applies tropical geometry to neural network decision boundaries, a machine learning problem with no economic question involving preferences, prices, incentives, or equilibrium.",
+  "topics": [
+   "tropical geometry",
+   "neural networks",
+   "machine learning"
+  ]
+ },
+ "s2:29d072f388c1daf5d7b68165e6b0048dd043b15f": {
+  "relevant": false,
+  "reason": "This paper applies tropical geometry to analyze neural network decision boundaries, a machine learning topic with no economic question about preferences, incentives, prices, or markets.",
+  "topics": [
+   "tropical geometry",
+   "deep neural networks",
+   "machine learning"
+  ]
+ },
+ "doi:10.1007/s10801-019-00916-4": {
+  "relevant": false,
+  "reason": "This is a pure tropical geometry/algebraic geometry paper about tropical bases and defects with no economic model or application.",
+  "topics": [
+   "tropical geometry",
+   "polynomial systems",
+   "algebraic geometry"
+  ]
+ },
+ "doi:10.1007/s10107-021-01729-9": {
+  "relevant": false,
+  "reason": "The title indicates a cooperative game theory paper about the core and market demand, with no indication of tropical/min-plus mathematical machinery being used.",
+  "topics": [
+   "cooperative game theory",
+   "core",
+   "transferable utility",
+   "public goods"
+  ]
+ },
+ "s2:12b5852a77c127be3ca05cb942b28a90d072586d": {
+  "relevant": false,
+  "reason": "This is a pure mathematics/probability paper on Gaussians over local fields and their tropicalizations with no economic model or application.",
+  "topics": [
+   "tropical geometry",
+   "probability",
+   "local fields"
+  ]
+ },
+ "arxiv:1909.00559": {
+  "relevant": false,
+  "reason": "This is a pure statistics/mathematics paper on p-adic Gaussian measures and tropicalization with no economic question, model, or application.",
+  "topics": [
+   "tropical statistics",
+   "p-adic analysis",
+   "Gaussian measures"
+  ]
+ },
+ "arxiv:1908.03486": {
+  "relevant": false,
+  "reason": "This is a pure computational algebraic geometry paper on algorithms for tropical varieties with no economic content whatsoever.",
+  "topics": [
+   "tropical geometry",
+   "computational algebra",
+   "Gröbner bases"
+  ]
+ },
+ "s2:62244cb03e48bfe0f60057466793d47094e7525e": {
+  "relevant": true,
+  "reason": "The paper addresses pricing in resource allocation games using duality gaps, which involves an economic question about pricing and strategic allocation, likely employing min-plus/tropical duality machinery, though without the abstract this is a tentative judgment based on the title's economic pricing content and optimization-duality framing."
+ },
+ "arxiv:1905.02287": {
+  "relevant": true,
+  "reason": "The paper uses tropical geometry and discrete convex analysis to address gross substitutes valuations, a central economic concept in matching and equilibrium theory with indivisibilities.",
+  "topics": [
+   "gross substitutes valuations",
+   "tropical geometry",
+   "matroid theory",
+   "discrete convex analysis",
+   "market equilibrium"
+  ]
+ },
+ "doi:10.2139/SSRN.2643086": {
+  "relevant": true,
+  "reason": "This is the Baldwin & Klemperer demand-types paper that uses tropical hypersurface arrangements and unimodularity to analyze competitive equilibrium existence with indivisible goods.",
+  "topics": [
+   "general equilibrium",
+   "indivisibilities",
+   "demand types",
+   "tropical geometry",
+   "auctions",
+   "matching"
+  ]
+ },
+ "arxiv:1809.03350": {
+  "relevant": false,
+  "reason": "This is pure tropical geometry/computational algebra about tropical bases and polynomial systems with no economic question or application.",
+  "topics": [
+   "tropical geometry",
+   "computational algebra",
+   "tropical bases"
+  ]
+ },
+ "arxiv:1808.10843": {
+  "relevant": false,
+  "reason": "This is a pure mathematics survey on defining Gaussian measures in the tropical semiring with no economic question or application.",
+  "topics": [
+   "tropical probability",
+   "tropical semiring",
+   "Gaussian measures"
+  ]
+ },
+ "arxiv:1707.03332": {
+  "relevant": false,
+  "reason": "The paper's primary contribution is an algorithmic/combinatorial result on tropical polynomial factorization, with economics mentioned only as a passing source of example families and no genuine economic question analyzed.",
+  "topics": [
+   "tropical polynomial factorization",
+   "discrete convex analysis",
+   "regular mixed subdivisions"
+  ]
+ },
+ "arxiv:1612.02581": {
+  "relevant": false,
+  "reason": "This is a software/computational tropical geometry paper with no economic model, question, or application.",
+  "topics": [
+   "tropical geometry",
+   "computational software",
+   "polymake"
+  ]
+ },
+ "doi:10.2139/ssrn.4290289": {
+  "relevant": false,
+  "reason": "This is pure tropical geometry (computing tropical Grassmannians and varieties) with no economic application or motivation.",
+  "topics": [
+   "tropical geometry",
+   "computational algebra",
+   "tropical Grassmannian"
+  ]
+ },
+ "s2:98c30668dab802d996d9ed464f23c47d649b6b18": {
+  "relevant": true,
+  "reason": "The paper studies preferences and competitive equilibria with indivisible goods, which is the demand-types/strong-substitutes domain built on tropical hypersurface machinery for equilibrium existence.",
+  "topics": [
+   "equilibrium with indivisibilities",
+   "preferences and substitutability",
+   "demand types"
+  ]
+ },
+ "s2:f919b2e2504c12d75ae452023af6d69b49ee967e": {
+  "relevant": false,
+  "reason": "This is a pure mathematics paper on tropical analogues of Gaussian distributions in algebraic statistics, with no genuine economic question or application.",
+  "topics": [
+   "tropical geometry",
+   "algebraic statistics",
+   "Gaussian distributions"
+  ]
+ },
+ "s2:cd8d47b2d213228bd4aab1ca4ff61846339a4d7a": {
+  "relevant": true,
+  "reason": "This thesis uses discrete convexity and tropical geometry to study bilevel programming with a comparison to a competitive equilibrium problem, combining tropical machinery with a genuine economic equilibrium/pricing question.",
+  "topics": [
+   "tropical geometry",
+   "discrete convexity",
+   "bilevel optimization",
+   "competitive equilibrium",
+   "pricing"
+  ]
+ },
+ "s2:03bd608e80c1068a4a3ceb1fc0d666268bd86203": {
+  "relevant": true,
+  "reason": "This is the Baldwin & Klemperer demand-types paper that uses tropical hypersurface machinery to analyze existence of competitive equilibrium with indivisible goods.",
+  "topics": [
+   "demand types",
+   "competitive equilibrium",
+   "indivisibilities",
+   "tropical geometry"
+  ]
+ },
+ "s2:ef4435c10a3408f9c859f80939c8a644708a2144": {
+  "relevant": false,
+  "reason": "This is a course final project with no abstract or content indicating a substantive economic application of tropical geometry.",
+  "topics": [
+   "tropical geometry",
+   "course project"
+  ]
+ },
+ "arxiv:1406.4070": {
+  "relevant": false,
+  "reason": "This is pure combinatorial/algebraic geometry about very ample polytopes with no economic model or application.",
+  "topics": [
+   "polytopes",
+   "Ehrhart theory",
+   "algebraic geometry"
+  ]
+ },
+ "doi:10.1111/SJOE.12012": {
+  "relevant": false,
+  "reason": "This appears to be a biographical/expository piece on Shapley's contributions to matching and game theory with no tropical or min-plus machinery involved.",
+  "topics": [
+   "matching theory",
+   "game theory",
+   "expository"
+  ]
+ },
+ "doi:10.4324/9780203816110": {
+  "relevant": false,
+  "reason": "This appears to be a general survey/history of Walrasian general equilibrium theory with no indication of tropical or min-plus mathematical machinery.",
+  "topics": [
+   "general equilibrium",
+   "economic theory history"
+  ]
+ },
+ "arxiv:1211.5755": {
+  "relevant": false,
+  "reason": "This is a pure combinatorics/convex geometry paper about the integer decomposition property of dilated polytopes with no economic application or motivation.",
+  "topics": [
+   "convex polytopes",
+   "integer decomposition property",
+   "combinatorics"
+  ]
+ },
+ "arxiv:1010.3887": {
+  "relevant": false,
+  "reason": "This is a pure combinatorics/algebraic geometry paper on lattice polytopes and toric varieties with no economic question or application.",
+  "topics": [
+   "lattice polytopes",
+   "toric varieties",
+   "algebraic geometry"
+  ]
+ },
+ "doi:10.1007/978-3-642-12971-1": {
+  "relevant": false,
+  "reason": "This is a mathematics textbook on triangulations with no economic application or tropical economic model.",
+  "topics": [
+   "triangulations",
+   "computational geometry",
+   "combinatorics"
+  ]
+ },
+ "doi:10.1111/J.1542-4774.2010.TB00523.X": {
+  "relevant": true,
+  "reason": "Klemperer's product-mix auction is the foundational economic mechanism-design application later formalized via tropical geometry and demand-types machinery.",
+  "topics": [
+   "auction design",
+   "product-mix auction",
+   "differentiated goods",
+   "mechanism design"
+  ]
+ },
+ "arxiv:0801.4835": {
+  "relevant": false,
+  "reason": "This is a pure tropical/ordinary convexity and commutative algebra paper with no economic question or application.",
+  "topics": [
+   "tropical convexity",
+   "polytropes",
+   "combinatorics"
+  ]
+ },
+ "arxiv:0711.4393": {
+  "relevant": false,
+  "reason": "This is a pure combinatorics/discrete geometry paper about lattice points in Minkowski sums with no economic question or application.",
+  "topics": [
+   "lattice polytopes",
+   "Minkowski sums",
+   "combinatorial geometry"
+  ]
+ },
+ "arxiv:1401.3834": {
+  "relevant": false,
+  "reason": "This is a mechanism design/algorithmic game theory paper on multi-unit auctions but uses no tropical/min-plus mathematical machinery.",
+  "topics": [
+   "auctions",
+   "mechanism design",
+   "approximation algorithms"
+  ]
+ },
+ "arxiv:math/0609184": {
+  "relevant": false,
+  "reason": "This is a pure combinatorics/polytope theory paper on face numbers of generalized permutohedra with no economic question or application.",
+  "topics": [
+   "polytope combinatorics",
+   "generalized permutohedra",
+   "f-vectors"
+  ]
+ },
+ "doi:10.1287/ijoc.15.3.284.16077": {
+  "relevant": false,
+  "reason": "This is a general survey of combinatorial auctions with no indication of using tropical/min-plus geometric machinery.",
+  "topics": [
+   "combinatorial auctions",
+   "mechanism design"
+  ]
+ },
+ "arxiv:math/0304291": {
+  "relevant": false,
+  "reason": "This is a pure combinatorics/discrete convexity paper with no economic model, question, or application.",
+  "topics": [
+   "discrete convexity",
+   "unimodularity",
+   "integer polyhedra"
+  ]
+ },
+ "doi:10.1016/S0165-4896(00)00071-8": {
+  "relevant": true,
+  "reason": "This paper uses discrete convexity machinery (closely tied to tropical/strong-substitutes structure) to analyze competitive equilibrium existence in economies with indivisible goods and money, a genuine economic equilibrium question.",
+  "topics": [
+   "discrete convexity",
+   "indivisible goods",
+   "competitive equilibrium",
+   "general equilibrium"
+  ]
+ },
+ "doi:10.2139/SSRN.237114": {
+  "relevant": false,
+  "reason": "This appears to be an applied/policy paper on spectrum auction design without any tropical or min-plus mathematical machinery.",
+  "topics": [
+   "auction design",
+   "spectrum auctions",
+   "policy"
+  ]
+ },
+ "doi:10.1006/eujc.1999.0298": {
+  "relevant": false,
+  "reason": "This is a pure combinatorics/matroid theory paper on unimodular vector systems with no economic question or application.",
+  "topics": [
+   "unimodular systems",
+   "matroid theory",
+   "combinatorics"
+  ]
+ },
+ "doi:10.1006/JETH.1996.2269": {
+  "relevant": false,
+  "reason": "The title suggests a genuine economic question (competitive equilibrium with indivisibilities), but there is no abstract or evidence that the paper uses tropical/min-plus machinery to address it."
+ },
+ "doi:10.1023/A:1022497624378": {
+  "relevant": false,
+  "reason": "This is a pure algebraic geometry paper about the Newton polytope of the resultant with no economic application or motivation.",
+  "topics": [
+   "Newton polytope",
+   "resultant",
+   "algebraic geometry"
+  ]
+ },
+ "doi:10.1112/BLMS/21.6.621": {
+  "relevant": false,
+  "reason": "This is a general textbook on linear and integer programming with no tropical/min-plus machinery and no specific economic application.",
+  "topics": [
+   "linear programming",
+   "integer programming",
+   "optimization"
+  ]
+ },
+ "doi:10.2307/2582770": {
+  "relevant": false,
+  "reason": "This is a general mathematical reference on linear and integer programming with no tropical/min-plus machinery or specific economic model.",
+  "topics": [
+   "linear programming",
+   "integer programming",
+   "optimization"
+  ]
+ },
+ "doi:10.2307/1913392": {
+  "relevant": false,
+  "reason": "This is a classic matching/gross substitutes economics paper (Kelso-Crawford style) with no tropical or min-plus mathematical machinery."
+ },
+ "doi:10.1007/BF01753437": {
+  "relevant": false,
+  "reason": "Shapley-Shubik's classic assignment game paper concerns the core of a matching market but uses linear programming duality, not tropical/min-plus geometric machinery.",
+  "topics": [
+   "matching",
+   "cooperative game theory",
+   "assignment game"
+  ]
+ },
+ "s2:a9c2ee19c1f7a91527ec9efa5bd07f47d85f69e4": {
+  "relevant": true,
+  "reason": "The title indicates the use of tropical geometry to analyze consumer demand, which is a genuine economic question combined with tropical machinery.",
+  "topics": [
+   "tropical geometry",
+   "demand analysis",
+   "consumer theory"
+  ]
+ },
+ "s2:f65040c3aa910788931c27c73006c5f3bb1e7e85": {
+  "relevant": false,
+  "reason": "This is just an organization name (SIAM) with no abstract or content to evaluate for tropical geometry or economic applications.",
+  "topics": []
+ },
+ "s2:0ce9ae5d3413261b1332a756d7a51b9b2189ed04": {
+  "relevant": false,
+  "reason": "This appears to be a general algorithmic and game-theoretic treatment of stable matching with no indication of tropical/min-plus mathematical machinery being used.",
+  "topics": [
+   "matching",
+   "game theory",
+   "algorithms"
+  ]
+ },
+ "s2:affe64c621aa6b3ff6a780bbb74520500dc2a825": {
+  "relevant": false,
+  "reason": "This is a mini-workshop report on projective normality of smooth toric varieties, a pure algebraic geometry topic with no economic application.",
+  "topics": [
+   "toric varieties",
+   "algebraic geometry",
+   "projective normality"
+  ]
+ },
+ "doi:10.1007/BF02680565": {
+  "relevant": false,
+  "reason": "Discrete convex analysis is a general mathematical framework and, absent a specific economic application in the abstract, does not substantively address a genuine economic question using tropical/min-plus machinery.",
+  "topics": [
+   "discrete convex analysis",
+   "combinatorial optimization"
+  ]
+ },
+ "doi:10.1515/crll.1997.485.123": {
+  "relevant": false,
+  "reason": "This is a pure mathematics paper on normal polytopes, triangulations, and Koszul algebras with no economic application or motivation.",
+  "topics": [
+   "commutative algebra",
+   "polytopes",
+   "combinatorics"
+  ]
+ },
+ "s2:4b2a425d83dbfc583038a8f2618abc18d7dd39d8": {
+  "relevant": false,
+  "reason": "This is a pure algebraic geometry paper about projective normality of toric varieties with no economic question or application.",
+  "topics": [
+   "toric varieties",
+   "algebraic geometry",
+   "projective normality"
+  ]
+ },
+ "arxiv:2501.17249": {
+  "relevant": false,
+  "reason": "This is a pure combinatorics/polytope geometry paper about Minkowski sums of alcoved polytopes with no economic question or application.",
+  "topics": [
+   "alcoved polytopes",
+   "tropical/polyhedral geometry",
+   "combinatorics"
+  ]
+ },
+ "arxiv:2006.01920": {
+  "relevant": false,
+  "reason": "This is pure tropical/toric geometry computing volume and Ehrhart polynomials of polytropes with no economic question or application.",
+  "topics": [
+   "tropical geometry",
+   "polytropes",
+   "Ehrhart polynomials",
+   "toric geometry"
+  ]
+ },
+ "arxiv:1912.01253": {
+  "relevant": false,
+  "reason": "This is pure tropical geometry studying convex hulls with no economic application or motivation.",
+  "topics": [
+   "tropical convexity",
+   "polyhedral geometry"
+  ]
+ },
+ "s2:392b50f9aee0cd3d7fcc4ca1ddd0651ca7e978a0": {
+  "relevant": false,
+  "reason": "This is a pure tropical geometry paper about tropical convex hulls of polyhedral sets with no economic model, application, or motivation.",
+  "topics": [
+   "tropical convexity",
+   "polyhedral geometry",
+   "pure mathematics"
+  ]
+ },
+ "s2:388976f7098b0e919a9409ae917d28d7da6184cf": {
+  "relevant": true,
+  "reason": "The paper addresses dominant strategy implementability in mechanism design, a genuine economic incentive question, using cycle-length/monotonicity conditions that connect to tropical/min-plus (network cycle) machinery central to characterizing implementable allocation rules.",
+  "topics": [
+   "mechanism design",
+   "dominant strategy implementability",
+   "affine maximizers",
+   "tropical/min-plus cycle conditions"
+  ]
+ },
+ "arxiv:2212.03598": {
+  "relevant": false,
+  "reason": "The paper uses discrete convex analysis (M/L-convexity) for economics, but this is not tropical/min-plus geometry machinery despite the gross-substitutes/indivisibilities theme.",
+  "topics": [
+   "discrete convex analysis",
+   "gross substitutes",
+   "equilibrium with indivisibilities"
+  ]
+ },
+ "s2:ea569192fd23c1166e5fc07d777b830a0894ee5e": {
+  "relevant": false,
+  "reason": "The title indicates mechanism design applied to cloud computing but provides no evidence of tropical/min-plus mathematical machinery, and no abstract confirms tropical methods are used."
+ },
+ "s2:9f7d34ac13bbbc487ed9266bb4c2e95a2b2c06db": {
+  "relevant": false,
+  "reason": "This is a pure combinatorial/polytope geometry paper about Minkowski decompositions of alcoved polytopes with no economic question or application.",
+  "topics": [
+   "tropical geometry",
+   "alcoved polytopes",
+   "Minkowski decomposition",
+   "combinatorics"
+  ]
+ },
+ "doi:10.1016/j.jmateco.2024.102946": {
+  "relevant": false,
+  "reason": "This is a mechanism design paper using zero-sum game and cyclic monotonicity arguments but does not employ tropical/min-plus geometric machinery.",
+  "topics": [
+   "mechanism design",
+   "implementability",
+   "principal-agent"
+  ]
+ },
+ "doi:10.1007/S40844-015-0012-3": {
+  "relevant": true,
+  "reason": "This is one of the listed positive examples, applying min-times/subtropical semiring algebra to Ricardian international trade theory.",
+  "topics": [
+   "international trade",
+   "Ricardian trade theory",
+   "min-plus/subtropical algebra",
+   "tropical methods in economics"
+  ]
+ },
+ "arxiv:1503.04707": {
+  "relevant": false,
+  "reason": "This is pure tropical/combinatorial geometry on tropical cones and hyperplane arrangements with no economic model, question, or application.",
+  "topics": [
+   "tropical convexity",
+   "combinatorics",
+   "polyhedral geometry"
+  ]
+ },
+ "arxiv:1411.1630": {
+  "relevant": false,
+  "reason": "This is a pure tropical convexity/geometry paper with no economic model, question, or application.",
+  "topics": [
+   "tropical convexity",
+   "min-plus/max-plus algebra",
+   "polytropes"
+  ]
+ },
+ "s2:e91cbeaf92a89ccf25ebf27ff00262f35f042026": {
+  "relevant": false,
+  "reason": "This is a standard principal-agent contract theory work with no tropical or min-plus mathematical machinery.",
+  "topics": [
+   "mechanism design",
+   "principal-agent",
+   "incentive theory"
+  ]
+ },
+ "arxiv:1309.5925": {
+  "relevant": false,
+  "reason": "This is a pure algorithmic/computational result on solving mean payoff games via tropical simplex methods, with no economic question about preferences, incentives, welfare, or equilibrium.",
+  "topics": [
+   "tropical geometry",
+   "mean payoff games",
+   "simplex algorithm",
+   "computational complexity"
+  ]
+ },
+ "doi:10.1093/RESTUD/RDW044": {
+  "relevant": false,
+  "reason": "This appears to be a mechanism design/social choice paper on voting rules with no indication of tropical or min-plus mathematical machinery.",
+  "topics": [
+   "voting rules",
+   "mechanism design",
+   "social choice"
+  ]
+ },
+ "arxiv:1305.6329": {
+  "relevant": false,
+  "reason": "This is pure tropical geometry about tropical linear spaces and matroid subdivisions with no economic model, question, or application.",
+  "topics": [
+   "tropical geometry",
+   "tropical linear spaces",
+   "matroid theory"
+  ]
+ },
+ "doi:10.3982/ECTA10123": {
+  "relevant": false,
+  "reason": "This is a pure mechanism design/information economics paper on full surplus extraction with no tropical or min-plus mathematical machinery.",
+  "topics": [
+   "mechanism design",
+   "surplus extraction",
+   "information economics"
+  ]
+ },
+ "doi:10.1007/s00355-011-0604-8": {
+  "relevant": false,
+  "reason": "This paper concerns mechanism design (dominant strategy implementation) but there is no indication it uses tropical/min-plus geometric machinery; convexity of the valuation space is standard mechanism design, not tropical geometry.",
+  "topics": [
+   "mechanism design",
+   "dominant strategy implementation"
+  ]
+ },
+ "arxiv:1109.4085": {
+  "relevant": false,
+  "reason": "This paper applies tropical geometry to biochemical networks and cell cycle models, not to economics.",
+  "topics": [
+   "tropical geometry",
+   "biochemical networks",
+   "systems biology"
+  ]
+ },
+ "doi:10.1002/wcs.119": {
+  "relevant": false,
+  "reason": "This is a generic 'Game theory' entry with no abstract and no indication of tropical/min-plus machinery being applied to an economic question.",
+  "topics": [
+   "game theory"
+  ]
+ },
+ "doi:10.3982/ECTA8882": {
+  "relevant": false,
+  "reason": "This paper on monotonicity and implementability in mechanism design shows no evidence of using tropical/min-plus mathematical machinery based on the available information.",
+  "topics": [
+   "mechanism design",
+   "implementability",
+   "monotonicity"
+  ]
+ },
+ "doi:10.1007/S10058-009-0101-Z": {
+  "relevant": false,
+  "reason": "This appears to be a paper on financial market policy/credit mechanisms with no indication of tropical or min-plus mathematical machinery.",
+  "topics": [
+   "credit markets",
+   "finance",
+   "market design"
+  ]
+ },
+ "doi:10.1007/978-1-84996-299-5": {
+  "relevant": false,
+  "reason": "This is a mathematics book on max-linear (max-plus) systems theory and algorithms with no substantive economic model, question, or application.",
+  "topics": [
+   "max-plus algebra",
+   "linear systems",
+   "algorithms"
+  ]
+ },
+ "arxiv:0912.2462": {
+  "relevant": false,
+  "reason": "This paper establishes an equivalence between tropical convexity/polyhedra and mean payoff games as a mathematical result, with no genuine economic question about preferences, welfare, incentives, or markets.",
+  "topics": [
+   "tropical convexity",
+   "mean payoff games",
+   "combinatorial game theory",
+   "Perron-Frobenius theory"
+  ]
+ },
+ "arxiv:0908.1586": {
+  "relevant": false,
+  "reason": "This is a pure tropical geometry/convexity paper on external representation of tropical polyhedra with no economic question or application.",
+  "topics": [
+   "tropical polyhedra",
+   "tropical convexity",
+   "pure mathematics"
+  ]
+ },
+ "doi:10.1145/1486877.1486882": {
+  "relevant": false,
+  "reason": "This paper on truthful mechanisms with convex type spaces addresses a genuine economic question (incentive compatibility in mechanism design), but there is no indication it uses tropical/min-plus geometry machinery—convexity and cyclic monotonicity are standard mechanism-design tools, not tropical methods.",
+  "topics": [
+   "mechanism design",
+   "incentive compatibility",
+   "convex type spaces"
+  ]
+ },
+ "arxiv:0807.0921": {
+  "relevant": false,
+  "reason": "This is pure max-plus convex geometry and max algebra with no economic model, question, or application.",
+  "topics": [
+   "max-plus convexity",
+   "tropical linear algebra",
+   "Kleene stars"
+  ]
+ },
+ "doi:10.3982/ECTA7168": {
+  "relevant": false,
+  "reason": "This appears to be a pure mechanism design paper on revenue equivalence with no indication of tropical/min-plus mathematical machinery being used."
+ },
+ "s2:305b63dc4a0d73ac41ca7ea9648208609d33e727": {
+  "relevant": false,
+  "reason": "The title concerns revenue equivalence in mechanism design but gives no indication of tropical/min-plus machinery, and without an abstract there is no evidence of tropical methods being used.",
+  "topics": [
+   "mechanism design",
+   "revenue equivalence"
+  ]
+ },
+ "doi:10.1111/J.1468-0262.2006.00695.X": {
+  "relevant": false,
+  "reason": "This is a mechanism design paper on weak monotonicity and dominant-strategy implementation but uses no tropical/min-plus mathematical machinery.",
+  "topics": [
+   "mechanism design",
+   "dominant-strategy implementation",
+   "weak monotonicity"
+  ]
+ },
+ "doi:10.1016/S0024-3795(03)00476-2": {
+  "relevant": false,
+  "reason": "This paper applies max-algebra to pairwise comparison matrices (a decision-analysis/AHP tool), but it is primarily a linear-algebraic/methodological contribution without a genuine economic model of preferences, prices, incentives, or equilibrium.",
+  "topics": [
+   "max-algebra",
+   "pairwise comparison matrices",
+   "decision analysis"
+  ]
+ },
+ "arxiv:q-bio/0311009": {
+  "relevant": false,
+  "reason": "This paper applies tropical geometry to statistical inference in graphical models, not to any economic question involving preferences, prices, incentives, or markets.",
+  "topics": [
+   "tropical geometry",
+   "statistical inference",
+   "graphical models"
+  ]
+ },
+ "doi:10.5860/choice.40-2224": {
+  "relevant": false,
+  "reason": "This is a general textbook on zero-sum repeated games with no substantive use of tropical/min-plus mathematical machinery indicated.",
+  "topics": [
+   "game theory",
+   "repeated games"
+  ]
+ },
+ "doi:10.1111/1468-0262.00296": {
+  "relevant": false,
+  "reason": "This is a pure economic theory paper on envelope theorems for optimization over arbitrary choice sets with no tropical/min-plus mathematical machinery.",
+  "topics": [
+   "envelope theorems",
+   "mechanism design",
+   "optimization"
+  ]
+ },
+ "doi:10.1111/1468-0262.00233": {
+  "relevant": true,
+  "reason": "The paper applies convex analysis/potential theory (closely tied to tropical/min-plus and convexity machinery) to mechanism design, a genuine economic incentive problem.",
+  "topics": [
+   "mechanism design",
+   "convex analysis",
+   "incentive compatibility"
+  ]
+ },
+ "doi:10.2139/SSRN.172650": {
+  "relevant": false,
+  "reason": "This is a general survey of auction theory literature with no indication of using tropical/min-plus mathematical machinery.",
+  "topics": [
+   "auction theory",
+   "survey"
+  ]
+ },
+ "doi:10.1023/A:1008753021652": {
+  "relevant": false,
+  "reason": "This is a paper on optimal transport theory (cyclical monotonicity and Monge solutions) with no tropical/min-plus machinery and no genuine economic application.",
+  "topics": [
+   "optimal transport",
+   "cyclical monotonicity",
+   "Monge-Kantorovich problem"
+  ]
+ },
+ "s2:15d17b772dadeb35f900cdf7f12822e6705e0015": {
+  "relevant": false,
+  "reason": "The title suggests a game-theoretic or mechanism-design topic but there is no abstract or evidence of tropical/min-plus mathematical machinery being used.",
+  "topics": [
+   "mechanism design",
+   "auctions"
+  ]
+ },
+ "doi:10.1016/0022-0531(88)90135-4": {
+  "relevant": true,
+  "reason": "The paper addresses multidimensional incentive compatibility in mechanism design, a genuine economic question that in this literature (e.g., Crowell & Tran) is typically analyzed using tropical/min-plus convexity machinery.",
+  "topics": [
+   "mechanism design",
+   "incentive compatibility",
+   "tropical convexity"
+  ]
+ },
+ "doi:10.1016/0022-0531(83)90048-0": {
+  "relevant": false,
+  "reason": "This appears to be a standard mechanism design paper on bilateral trading with no indication of tropical/min-plus mathematical machinery being used.",
+  "topics": [
+   "mechanism design",
+   "bilateral trading"
+  ]
+ },
+ "doi:10.1287/moor.6.1.58": {
+  "relevant": false,
+  "reason": "This is a classic mechanism design paper on optimal auctions but there is no indication it uses tropical/min-plus geometric machinery.",
+  "topics": [
+   "auction design",
+   "mechanism design"
+  ]
+ },
+ "doi:10.1007/BF01725792": {
+  "relevant": false,
+  "reason": "This is a classic social choice/mechanism design paper on strategy-proofness under single-peaked preferences with no tropical or min-plus mathematical machinery.",
+  "topics": [
+   "social choice",
+   "strategy-proofness",
+   "single-peaked preferences"
+  ]
+ },
+ "doi:10.1057/JORS.1962.10": {
+  "relevant": false,
+  "reason": "This paper concerns industrial process modeling and steady-state approximation, not an economic question involving preferences, incentives, prices, or equilibrium.",
+  "topics": [
+   "industrial processes",
+   "steady-state analysis"
+  ]
+ },
+ "doi:10.1111/J.1540-6261.1961.TB02789.X": {
+  "relevant": false,
+  "reason": "This is Vickrey's classic auction theory paper on strategic bidding and mechanism design, but it uses no tropical/min-plus mathematical machinery.",
+  "topics": [
+   "auctions",
+   "mechanism design",
+   "game theory"
+  ]
+ },
+ "doi:10.1007/978-3-540-68279-0_2": {
+  "relevant": false,
+  "reason": "This is a classic combinatorial optimization paper on the assignment problem without any tropical/min-plus geometric machinery or genuine economic modeling of preferences, incentives, or equilibrium.",
+  "topics": [
+   "combinatorial optimization",
+   "assignment problem"
+  ]
+ },
+ "s2:fd8ad82c460d9c1ff2f9a9221f4c9bb558c823a8": {
+  "relevant": false,
+  "reason": "This is a standard linear programming approach to mechanism design with no indication of tropical, min-plus/max-plus, or Newton-polytope machinery.",
+  "topics": [
+   "mechanism design",
+   "linear programming"
+  ]
+ },
+ "doi:10.1016/j.jet.2012.09.012": {
+  "relevant": true,
+  "reason": "The paper studies incentive compatible transfers, a core mechanism design question, and 'extremal' transfers strongly suggest tropical/min-plus polyhedral machinery over the incentive-compatibility constraints characterizing implementable allocations.",
+  "topics": [
+   "mechanism design",
+   "incentive compatibility",
+   "transfers",
+   "tropical geometry"
+  ]
+ },
+ "doi:10.1016/j.jet.2012.12.014": {
+  "relevant": false,
+  "reason": "Title suggests a mechanism design paper but there is no abstract or evidence of tropical/min-plus machinery being used, so it fails the requirement of substantive tropical methods.",
+  "topics": [
+   "mechanism design",
+   "revenue equivalence"
+  ]
+ },
+ "doi:10.1017/CBO9780511804052.006": {
+  "relevant": false,
+  "reason": "This paper is about searching in social networks and contains no tropical/min-plus mathematical machinery nor a genuine economic-theoretic application of it.",
+  "topics": [
+   "social networks",
+   "network search"
+  ]
+ },
+ "doi:10.26481/umamet.2004046": {
+  "relevant": false,
+  "reason": "Despite the mechanism design topic, there is no evidence of tropical/min-plus machinery in the title and no abstract to confirm any tropical methods."
+ },
+ "doi:10.4171/dm/164-5": {
+  "relevant": false,
+  "reason": "This is an erratum about tropical convexity applied to phylogenetic trees, with no economic application.",
+  "topics": [
+   "tropical convexity",
+   "phylogenetics"
+  ]
+ },
+ "s2:00e2b0f9bcdfa52fbf68a959f9daa8a5ba23bba8": {
+  "relevant": false,
+  "reason": "This is a textbook on zero-sum repeated games in game theory with no indication of tropical/min-plus mathematical machinery being applied.",
+  "topics": [
+   "game theory",
+   "repeated games"
+  ]
+ },
+ "doi:10.1057/JORS.1994.15": {
+  "relevant": false,
+  "reason": "This is a foundational max-plus algebra text for discrete event systems (queueing, manufacturing, scheduling), not an application to a genuine economic question about preferences, incentives, or equilibrium.",
+  "topics": [
+   "max-plus algebra",
+   "discrete event systems",
+   "operations research"
+  ]
+ },
+ "doi:10.2307/2583863": {
+  "relevant": false,
+  "reason": "This is a general network flows/optimization textbook with no tropical/min-plus machinery applied to a genuine economic question.",
+  "topics": [
+   "network flows",
+   "optimization",
+   "algorithms"
+  ]
+ },
+ "doi:10.1016/0304-4068(87)90007-3": {
+  "relevant": false,
+  "reason": "This is a pure microeconomic theory paper on rationalizability of demand in quasi-linear settings with no apparent use of tropical or min-plus mathematical machinery.",
+  "topics": [
+   "rationalizability",
+   "quasi-linear preferences",
+   "revealed preference"
+  ]
+ },
+ "doi:10.1007/BF00128122": {
+  "relevant": false,
+  "reason": "This is a pure social choice/voting theory paper on strategy-proofness with single-peaked preferences and uses no tropical/min-plus mathematical machinery.",
+  "topics": [
+   "social choice",
+   "strategy-proofness",
+   "voting theory"
+  ]
+ },
+ "s2:f8c0e95b4cd4fd66b25d3faeff20f330e2840aec": {
+  "relevant": false,
+  "reason": "This is a classification label about electronic commerce payment systems with no abstract and no evidence of tropical/min-plus mathematical machinery applied to an economic question.",
+  "topics": [
+   "electronic commerce",
+   "payment systems"
+  ]
+ },
+ "arxiv:2405.19551": {
+  "relevant": false,
+  "reason": "This is a pure optimization/tropical geometry methods paper with no genuine economic model, question, or application beyond a passing mention of economics.",
+  "topics": [
+   "tropical optimization",
+   "gradient descent",
+   "tropical statistics"
+  ]
+ },
+ "arxiv:1911.05401": {
+  "relevant": false,
+  "reason": "This is a pure mathematics/statistics paper on tropical optimal transport and Wasserstein distances with applications to phylogenetics, not economics.",
+  "topics": [
+   "tropical geometry",
+   "optimal transport",
+   "Wasserstein distances",
+   "phylogenetics"
+  ]
+ },
+ "arxiv:1805.12400": {
+  "relevant": false,
+  "reason": "This paper applies tropical geometry to phylogenetic tree space in biology/statistics with no economic question.",
+  "topics": [
+   "tropical geometry",
+   "phylogenetics",
+   "statistics",
+   "biology"
+  ]
+ },
+ "doi:10.1016/j.geb.2017.12.018": {
+  "relevant": false,
+  "reason": "The title concerns separability and decomposition in mechanism design with transfers but provides no indication of tropical/min-plus mathematical machinery, and no abstract confirms such methods.",
+  "topics": [
+   "mechanism design",
+   "transfers"
+  ]
+ },
+ "doi:10.1016/j.jcta.2016.03.003": {
+  "relevant": false,
+  "reason": "This is a pure combinatorics/tropical geometry paper about oriented matroids with no economic question or application.",
+  "topics": [
+   "tropical oriented matroids",
+   "combinatorics",
+   "topological representation"
+  ]
+ },
+ "doi:10.1016/j.jet.2012.11.001": {
+  "relevant": false,
+  "reason": "This appears to be a standard mechanism design / social choice paper on truthful implementation and preference aggregation with no indication of tropical or min-plus/max-plus mathematical machinery.",
+  "topics": [
+   "mechanism design",
+   "social choice",
+   "preference aggregation"
+  ]
+ },
+ "doi:10.1142/9789814374590_0002": {
+  "relevant": false,
+  "reason": "This is a standard robust mechanism design paper about private information and higher-order beliefs with no tropical/min-plus mathematical machinery.",
+  "topics": [
+   "mechanism design",
+   "robust mechanism design",
+   "higher-order beliefs"
+  ]
+ },
+ "arxiv:1003.1550": {
+  "relevant": false,
+  "reason": "This is a mechanism design paper on dominant strategy implementation using a social welfare ordering approach, with no tropical/min-plus geometric machinery employed.",
+  "topics": [
+   "mechanism design",
+   "social choice theory",
+   "Roberts' theorem"
+  ]
+ },
+ "doi:10.1007/978-3-642-04645-2_3": {
+  "relevant": false,
+  "reason": "This is a mechanism design paper about Roberts' theorem (characterizing implementable social choice functions) but shows no evidence of using tropical/min-plus geometric machinery.",
+  "topics": [
+   "mechanism design",
+   "Roberts' theorem"
+  ]
+ },
+ "doi:10.1007/s00355-008-0331-y": {
+  "relevant": false,
+  "reason": "This is a mechanism design paper about Roberts' theorem on affine maximizers, but there is no indication it uses tropical/min-plus mathematical machinery.",
+  "topics": [
+   "mechanism design",
+   "Roberts' theorem",
+   "social choice"
+  ]
+ },
+ "doi:10.1145/1250790.1250842": {
+  "relevant": false,
+  "reason": "This paper concerns VCG mechanism design limitations but shows no evidence of using tropical/min-plus mathematical machinery.",
+  "topics": [
+   "mechanism design",
+   "VCG mechanisms"
+  ]
+ },
+ "doi:10.1111/J.1467-937X.2007.00427.X": {
+  "relevant": false,
+  "reason": "The title indicates a mechanism design paper on dominant strategy mechanisms, but there is no abstract or evidence that it uses tropical/min-plus mathematical machinery.",
+  "topics": [
+   "mechanism design",
+   "dominant strategy"
+  ]
+ },
+ "arxiv:math/0501167": {
+  "relevant": false,
+  "reason": "This is a pure tropical algebra/computational complexity paper about polynomial factorization with no economic question or application.",
+  "topics": [
+   "tropical semiring",
+   "polynomial factorization",
+   "computational complexity"
+  ]
+ },
+ "doi:10.1109/SFCS.2003.1238230": {
+  "relevant": false,
+  "reason": "This paper is about characterizing truthful (incentive-compatible) combinatorial auctions but shows no evidence of using tropical/min-plus mathematical machinery, which is required for inclusion."
+ },
+ "arxiv:math/0308254": {
+  "relevant": false,
+  "reason": "This is pure tropical geometry establishing tropical convexity foundations with applications to phylogenetics, containing no economic question.",
+  "topics": [
+   "tropical convexity",
+   "tropical polytopes",
+   "phylogenetics"
+  ]
+ },
+ "doi:10.1145/846241.846250": {
+  "relevant": false,
+  "reason": "This appears to be a standard auction/mechanism design paper on incentive compatibility with no indication of tropical/min-plus mathematical machinery being used."
+ },
+ "s2:a4c19077c09a65a61ce75ef34e409f43f315126a": {
+  "relevant": false,
+  "reason": "This is a foundational economics text on principal-agent incentive theory with no use of tropical or min-plus mathematical machinery.",
+  "topics": [
+   "principal-agent model",
+   "incentive theory",
+   "mechanism design"
+  ]
+ },
+ "doi:10.1007/PL00009384": {
+  "relevant": false,
+  "reason": "This is a pure mathematics paper on the geometry of products of minors with no economic question or application.",
+  "topics": [
+   "algebraic geometry",
+   "matrix minors",
+   "combinatorics"
+  ]
+ },
+ "doi:10.1007/978-0-8176-4771-1": {
+  "relevant": false,
+  "reason": "This is a foundational mathematics book on algebraic geometry (discriminants, resultants, Newton polytopes) with no economic application or motivation.",
+  "topics": [
+   "algebraic geometry",
+   "discriminants",
+   "resultants",
+   "Newton polytopes"
+  ]
+ },
+ "doi:10.1006/AIMA.1993.1013": {
+  "relevant": false,
+  "reason": "This is a pure algebraic/combinatorics paper on maximal minors and their leading terms with no economic model, question, or application.",
+  "topics": [
+   "commutative algebra",
+   "combinatorics",
+   "maximal minors"
+  ]
+ },
+ "s2:32df61bc58b8058985dffdb7abb46b1311fc59c4": {
+  "relevant": false,
+  "reason": "This is a mechanism design paper on robustness with respect to private information and higher-order beliefs, with no use of tropical/min-plus mathematical machinery.",
+  "topics": [
+   "mechanism design",
+   "robustness",
+   "higher-order beliefs"
+  ]
+ },
+ "doi:10.3982/ecta8577": {
+  "relevant": false,
+  "reason": "This appears to be a paper on implementation theory in mechanism design (continuous implementation typically concerns robustness to higher-order beliefs) with no indication of tropical or min-plus mathematical machinery.",
+  "topics": [
+   "mechanism design",
+   "implementation theory"
+  ]
+ },
+ "s2:c980e9fcaec833342b13f2b75122dc961bfd1cac": {
+  "relevant": false,
+  "reason": "This is a robust mechanism design paper in economic theory with no tropical/min-plus geometric machinery involved.",
+  "topics": [
+   "mechanism design",
+   "robustness",
+   "economic theory"
+  ]
+ },
+ "arxiv:2607.11658": {
+  "relevant": false,
+  "reason": "The paper addresses genuine economic questions about indivisible goods, prices, and welfare decentralization, but uses linear-programming/welfare-comparison methods rather than tropical/min-plus machinery.",
+  "topics": [
+   "indivisible goods",
+   "competitive equilibrium",
+   "welfare decentralization",
+   "pricing"
+  ]
+ },
+ "doi:10.34706/de-2025-05-05": {
+  "relevant": true,
+  "reason": "This is a survey specifically on applications of tropical/idempotent mathematics to economics and game theory, emphasizing works where tropical methods shape the economic problem's substance.",
+  "topics": [
+   "tropical mathematics",
+   "economics",
+   "game theory",
+   "survey"
+  ]
+ },
+ "doi:10.1086/731413": {
+  "relevant": false,
+  "reason": "The paper addresses genuine economic questions about competitive equilibria with indivisibilities and substitute preferences but does not employ tropical/min-plus/tropical-convexity machinery to do so.",
+  "topics": [
+   "competitive equilibrium",
+   "indivisible goods",
+   "substitute preferences"
+  ]
+ },
+ "arxiv:2202.04706": {
+  "relevant": false,
+  "reason": "This paper studies stable allocations in discrete exchange economies using Scarf's theorem and TTC-type mechanisms, with no tropical/min-plus machinery.",
+  "topics": [
+   "matching",
+   "exchange economies",
+   "core stability"
+  ]
+ },
+ "doi:10.1145/3465456.3467575": {
+  "relevant": true,
+  "reason": "The paper substantively uses the geometry of choice correspondences (tropical/demand-types machinery) to characterize substitute preferences and derive equilibrium prices for indivisible goods, a genuine economic question about preferences and market design.",
+  "topics": [
+   "equilibrium with indivisibilities",
+   "substitute preferences",
+   "pseudo-market design",
+   "tropical geometry of demand"
+  ]
+ },
+ "doi:10.1111/iere.12535": {
+  "relevant": false,
+  "reason": "This is a welfare economics paper using saddle-point/concave programming methods with no tropical or min-plus mathematical machinery.",
+  "topics": [
+   "welfare economics",
+   "money metrics",
+   "competitive equilibrium"
+  ]
+ },
+ "doi:10.1016/J.JET.2021.105303": {
+  "relevant": false,
+  "reason": "This is a market design/general equilibrium paper on pseudomarkets but uses no tropical/min-plus/tropical-convexity machinery.",
+  "topics": [
+   "pseudomarkets",
+   "Walrasian equilibrium",
+   "welfare theorems",
+   "market design"
+  ]
+ },
+ "doi:10.1007/s00355-019-01228-z": {
+  "relevant": true,
+  "reason": "The paper develops competitive equilibrium predictions within the Baldwin-Klemperer demand-types/tropical-hypersurface framework for exchange economies with indivisibilities, addressing genuine economic questions about equilibrium and payoffs.",
+  "topics": [
+   "competitive equilibrium",
+   "indivisibilities",
+   "matching theory",
+   "demand types",
+   "transferable utility"
+  ]
+ },
+ "doi:10.26481/UMAGSB.2019007": {
+  "relevant": false,
+  "reason": "This is a pure matching-theory/competitive-equilibrium economics paper with no tropical or min-plus mathematical machinery.",
+  "topics": [
+   "matching theory",
+   "competitive equilibrium",
+   "financial constraints"
+  ]
+ },
+ "doi:10.1145/3219166.3219171": {
+  "relevant": false,
+  "reason": "This is a matching/trading networks paper about competitive equilibria and stability but uses no tropical/min-plus geometric machinery.",
+  "topics": [
+   "matching theory",
+   "trading networks",
+   "competitive equilibrium"
+  ]
+ },
+ "doi:10.1016/j.jet.2017.09.003": {
+  "relevant": false,
+  "reason": "This is a corrigendum in general equilibrium theory about gross substitutes and Walrasian equilibrium, but there is no indication it uses tropical/min-plus mathematical machinery.",
+  "topics": [
+   "general equilibrium",
+   "gross substitutes"
+  ]
+ },
+ "doi:10.1145/2940716.2940782": {
+  "relevant": false,
+  "reason": "This paper uses network flow and submodular optimization for competitive equilibrium in trading networks but does not employ tropical/min-plus algebra or tropical geometry machinery.",
+  "topics": [
+   "trading networks",
+   "competitive equilibrium",
+   "submodular flow",
+   "matching"
+  ]
+ },
+ "doi:10.3982/TE1840": {
+  "relevant": false,
+  "reason": "This paper studies gross substitutes and assignment valuations as a pure combinatorial/economic-theory question without using tropical or min-plus/max-plus mathematical machinery to address it."
+ },
+ "doi:10.1007/s13160-015-0175-7": {
+  "relevant": false,
+  "reason": "This paper concerns stability and competitive equilibria in trading networks with discrete concave (M-concave/gross substitutes) utility functions, which is discrete convex analysis rather than tropical/min-plus geometric machinery, and the abstract shows no use of tropical hypersurfaces or min-plus algebra.",
+  "topics": [
+   "matching/trading networks",
+   "discrete convex analysis",
+   "competitive equilibrium"
+  ]
+ },
+ "doi:10.1287/opre.2015.1388": {
+  "relevant": false,
+  "reason": "The title suggests an auction design paper with tree valuations, but without an abstract there is no evidence of tropical/min-plus mathematical machinery being used."
+ },
+ "doi:10.1016/J.ECONLET.2014.01.038": {
+  "relevant": false,
+  "reason": "Without an abstract or evidence of tropical/min-plus machinery, this appears to be a standard microeconomics paper on substitutes/complements with no clear tropical-geometric methods.",
+  "topics": [
+   "gross substitutes",
+   "demand theory"
+  ]
+ },
+ "doi:10.1086/673402": {
+  "relevant": false,
+  "reason": "This is a matching/trading networks paper on stability and competitive equilibrium but does not use tropical/min-plus geometry machinery.",
+  "topics": [
+   "trading networks",
+   "matching theory",
+   "competitive equilibrium"
+  ]
+ },
+ "doi:10.2139/SSRN.1439043": {
+  "relevant": true,
+  "reason": "This is Klemperer's product-mix auction work applying tropical/demand-types machinery to central-bank liquidity auction design, a genuine mechanism design economic application.",
+  "topics": [
+   "auction design",
+   "product-mix auctions",
+   "substitutes",
+   "mechanism design",
+   "tropical geometry"
+  ]
+ },
+ "doi:10.1007/S00199-007-0233-8": {
+  "relevant": false,
+  "reason": "The title indicates a paper on the welfare theorems of general equilibrium economics, but there is no indication it uses tropical/min-plus mathematical machinery, and no abstract confirms any tropical methods.",
+  "topics": [
+   "general equilibrium",
+   "welfare theorems"
+  ]
+ },
+ "doi:10.1111/J.1468-0262.2006.00708.X": {
+  "relevant": true,
+  "reason": "This paper on equilibria with indivisibilities and gross substitutes/complements is part of the demand-types/strong-substitutes literature that uses tropical-hypersurface machinery for competitive equilibrium analysis with indivisible goods.",
+  "topics": [
+   "general equilibrium",
+   "indivisibilities",
+   "gross substitutes and complements",
+   "tropical convexity"
+  ]
+ },
+ "doi:10.1257/0002828054825466": {
+  "relevant": false,
+  "reason": "This is a foundational matching theory paper (Hatfield & Milgrom) with genuine economic content but no tropical/min-plus geometric machinery.",
+  "topics": [
+   "matching theory",
+   "mechanism design",
+   "economics"
+  ]
+ },
+ "doi:10.1016/S0166-218X(02)00456-0": {
+  "relevant": true,
+  "reason": "The paper studies gross substitutability and discrete convexity, which are central to competitive equilibrium with indivisible goods and connect directly to the strong-substitutes/demand-types tropical machinery used in economics.",
+  "topics": [
+   "gross substitutes",
+   "discrete convexity",
+   "competitive equilibrium",
+   "indivisible goods"
+  ]
+ },
+ "doi:10.1287/moor.28.3.463.16393": {
+  "relevant": false,
+  "reason": "This is a matching/gross substitutes paper in economics but there is no indication it uses tropical or min-plus mathematical machinery.",
+  "topics": [
+   "matching theory",
+   "gross substitutes",
+   "labor markets"
+  ]
+ },
+ "doi:10.2202/1534-5963.1019": {
+  "relevant": false,
+  "reason": "This is a combinatorial auction design paper with no evidence of tropical/min-plus geometric machinery in the title or abstract.",
+  "topics": [
+   "auction design",
+   "package bidding",
+   "mechanism design"
+  ]
+ },
+ "doi:10.1006/jeth.2000.2758": {
+  "relevant": false,
+  "reason": "This paper studies competitive equilibrium existence and welfare in an economy with indivisible goods using standard economic/fixed-point methods, with no tropical, min-plus, or Newton-polytope machinery.",
+  "topics": [
+   "general equilibrium",
+   "indivisible goods",
+   "welfare theorems"
+  ]
+ },
+ "doi:10.1016/S0304-4068(99)00022-1": {
+  "relevant": false,
+  "reason": "The title indicates a general equilibrium exchange economy with indivisible goods and money, but there is no indication that tropical/min-plus machinery is used to analyze it, so it fails the requirement of substantive tropical methods.",
+  "topics": [
+   "general equilibrium",
+   "indivisible goods"
+  ]
+ },
+ "doi:10.1006/JETH.1999.2531": {
+  "relevant": false,
+  "reason": "Without an abstract there is no evidence this paper uses tropical/min-plus machinery, and gross substitutes alone is standard economics that need not invoke tropical methods.",
+  "topics": [
+   "Walrasian equilibrium",
+   "gross substitutes"
+  ]
+ },
+ "doi:10.1006/JETH.1998.2445": {
+  "relevant": false,
+  "reason": "The title suggests an economics paper on competitive equilibrium with indivisible goods, but no abstract is provided to confirm any use of tropical/min-plus machinery, so it cannot be verified as substantively tropical."
+ },
+ "doi:10.1016/S0304-4068(97)83316-2": {
+  "relevant": false,
+  "reason": "Without an abstract, the title suggests a general equilibrium paper on indivisibilities and money but provides no evidence of tropical/min-plus machinery being used.",
+  "topics": [
+   "general equilibrium",
+   "indivisibilities"
+  ]
+ },
+ "doi:10.1016/0022-0531(86)90091-8": {
+  "relevant": true,
+  "reason": "The paper addresses competitive equilibrium existence and computation in markets with indivisible commodities, a genuine economic question that typically employs discrete convexity/tropical-type machinery central to the demand-types and indivisibilities literature.",
+  "topics": [
+   "competitive equilibrium",
+   "indivisibilities",
+   "market design",
+   "discrete convexity"
+  ]
+ },
+ "doi:10.2307/1912658": {
+  "relevant": false,
+  "reason": "The title indicates a paper on two-sided matching markets but there is no abstract or evidence of tropical/min-plus mathematical machinery being used.",
+  "topics": [
+   "matching markets",
+   "game theory"
+  ]
+ },
+ "doi:10.1007/BF01283369": {
+  "relevant": true,
+  "reason": "The paper studies competitive equilibrium with indivisible goods, a core topic in the demand-types/strong-substitutes tropical framework used by Baldwin & Klemperer for equilibrium analysis with indivisibilities.",
+  "topics": [
+   "competitive equilibrium",
+   "indivisible goods",
+   "demand types",
+   "tropical hypersurfaces"
+  ]
+ },
+ "doi:10.1007/BF01769864": {
+  "relevant": false,
+  "reason": "Despite treating competitive equilibria with indivisibilities (a relevant economic topic), there is no indication that the paper uses tropical/min-plus mathematical machinery, and no abstract confirms such methods.",
+  "topics": [
+   "indivisibilities",
+   "competitive equilibrium",
+   "core"
+  ]
+ },
+ "doi:10.1007/BF01769865": {
+  "relevant": true,
+  "reason": "This studies competitive equilibrium in a discrete (indivisible goods) exchange economy with money, which is the strong-substitutes/demand-types setting that relies on tropical hypersurface machinery for equilibrium existence with indivisibilities.",
+  "topics": [
+   "general equilibrium",
+   "indivisible goods",
+   "tropical geometry",
+   "demand types"
+  ]
+ },
+ "doi:10.1016/0304-4068(82)90038-6": {
+  "relevant": false,
+  "reason": "This paper concerns assignment games/markets in cooperative game theory but shows no evidence of using tropical or min-plus mathematical machinery.",
+  "topics": [
+   "assignment games",
+   "cooperative game theory",
+   "matching markets"
+  ]
+ },
+ "doi:10.1016/0022-0531(77)90018-7": {
+  "relevant": false,
+  "reason": "The title suggests general equilibrium with indivisibilities but there is no abstract or evidence that tropical/min-plus machinery is used, so it cannot be confirmed as tropical economics."
+ },
+ "doi:10.2307/1909559": {
+  "relevant": false,
+  "reason": "Title indicates a paper on indivisibilities in an exchange economy but there is no evidence it uses tropical/min-plus mathematical machinery, so it cannot be confirmed as relevant."
+ },
+ "doi:10.1017/CCOL052123736X.011": {
+  "relevant": false,
+  "reason": "The title is too generic and no abstract is provided to confirm any use of tropical/min-plus machinery applied to an economic question.",
+  "topics": [
+   "equilibrium analysis",
+   "insufficient information"
+  ]
+ },
+ "doi:10.1111/J.1467-999X.1960.TB00275.X": {
+  "relevant": false,
+  "reason": "This is a classical general equilibrium/welfare economics paper with no tropical or min-plus mathematical machinery.",
+  "topics": [
+   "general equilibrium",
+   "welfare economics"
+  ]
+ },
+ "doi:10.2139/ssrn.3544605": {
+  "relevant": false,
+  "reason": "The paper studies competitive equilibria in trading networks with matching-theoretic lattice/incentive results but uses no tropical or min-plus mathematical machinery.",
+  "topics": [
+   "matching theory",
+   "trading networks",
+   "competitive equilibrium"
+  ]
+ },
+ "s2:1ad86d881cf6000bfafd8daaf8728b42282ec988": {
+  "relevant": true,
+  "reason": "The paper addresses Walrasian equilibrium and market design with indivisibilities, a genuine economic equilibrium question that typically employs demand-types/strong-substitutes tropical machinery.",
+  "topics": [
+   "market design",
+   "Walrasian equilibrium",
+   "indivisibilities",
+   "competitive equilibrium"
+  ]
+ },
+ "doi:10.15807/JORSJ.58.61": {
+  "relevant": false,
+  "reason": "This survey on gross substitutes and M♮-concavity is discrete convex analysis for equilibrium existence but does not employ tropical/min-plus geometry machinery.",
+  "topics": [
+   "discrete convex analysis",
+   "gross substitutes",
+   "Walrasian equilibrium"
+  ]
+ },
+ "doi:10.1016/J.JET.2008.05.002": {
+  "relevant": true,
+  "reason": "This paper addresses competitive equilibrium and auction theory with substitute goods, connecting to the demand-types/strong-substitutes framework that uses tropical hypersurface machinery for indivisible goods markets.",
+  "topics": [
+   "substitutes",
+   "auctions",
+   "competitive equilibrium",
+   "indivisible goods",
+   "demand types"
+  ]
+ },
+ "doi:10.1016/0094-1190(83)90044-X": {
+  "relevant": false,
+  "reason": "The title suggests a housing market model with indivisible goods, but there is no indication of tropical/min-plus mathematical machinery being used, and the abstract is empty to confirm otherwise."
+ },
+ "s2:3ba2a4a8ef7b2c40878e58c0fba47fc169567926": {
+  "relevant": false,
+  "reason": "This is a cooperative game theory paper on Shapley values in large exchange economies with no tropical/min-plus mathematical machinery involved.",
+  "topics": [
+   "cooperative game theory",
+   "Shapley value",
+   "exchange economy"
+  ]
+ },
+ "doi:10.1002/NAV.3800090106": {
+  "relevant": true,
+  "reason": "The optimal assignment problem is a core economic matching/pricing model, and complements/substitutes analysis typically employs tropical/min-plus (dual) machinery to study equilibrium prices and substitution structure.",
+  "topics": [
+   "assignment problem",
+   "matching",
+   "complements and substitutes",
+   "tropical/min-plus optimization"
+  ]
+ },
+ "doi:10.2307/1907742": {
+  "relevant": false,
+  "reason": "This appears to be a classic economics/optimization paper on assignment problems and economic geography (likely Koopmans-Beckmann) with no tropical/min-plus mathematical machinery substantively applied.",
+  "topics": [
+   "assignment problems",
+   "economic geography",
+   "optimization"
+  ]
+ },
+ "doi:10.1112/PLMS/S1-32.1.277": {
+  "relevant": false,
+  "reason": "This is Poincaré's classical topology paper with no tropical geometry or economic content whatsoever.",
+  "topics": [
+   "algebraic topology",
+   "analysis situs"
+  ]
+ },
+ "arxiv:2606.09631": {
+  "relevant": true,
+  "reason": "The paper computes competitive equilibria in the product-mix (Arctic) auction with real economic applications (sovereign debt restructuring, Fisher markets, competitive equilibrium), building on the tropical-geometry-based product-mix auction framework.",
+  "topics": [
+   "product-mix auctions",
+   "competitive equilibrium",
+   "Fisher markets",
+   "mechanism/market design",
+   "sovereign debt finance"
+  ]
+ },
+ "arxiv:2604.27765": {
+  "relevant": false,
+  "reason": "The paper uses discrete convex analysis (L-natural-convex functions) and Lyapunov functions for auction equilibrium, but does not employ tropical/min-plus geometric machinery, which is the required methodological criterion.",
+  "topics": [
+   "auctions",
+   "Walrasian equilibrium",
+   "discrete convex analysis",
+   "indivisible goods"
+  ]
+ },
+ "arxiv:2604.10563": {
+  "relevant": false,
+  "reason": "The paper uses discrete convex analysis (L-natural convexity, polymatroids) rather than tropical/min-plus geometry machinery, despite genuine economic content on auctions and Walrasian equilibria.",
+  "topics": [
+   "auctions",
+   "Walrasian equilibrium",
+   "discrete convex analysis",
+   "strong substitutes"
+  ]
+ },
+ "arxiv:2602.20868": {
+  "relevant": false,
+  "reason": "This paper studies trading networks equilibria and fairness using standard matching/competitive equilibrium theory with no tropical or min-plus mathematical machinery.",
+  "topics": [
+   "trading networks",
+   "competitive equilibrium",
+   "matching theory"
+  ]
+ },
+ "arxiv:2511.21637": {
+  "relevant": true,
+  "reason": "The paper studies auction equilibria and market allocation (genuine economic questions of pricing and competitive equilibrium) with 'Arctic' (tropical/min-plus-flavored) auction machinery linked to Fisher markets and rational convex programs.",
+  "topics": [
+   "auctions",
+   "market equilibrium",
+   "tropical/min-plus methods",
+   "algorithmic game theory",
+   "resource allocation"
+  ]
+ },
+ "arxiv:2507.03252": {
+  "relevant": false,
+  "reason": "The paper uses linear programming and primal-dual methods for auction design rather than tropical/min-plus geometry machinery, despite touching the Product-Mix auction.",
+  "topics": [
+   "auctions",
+   "VCG mechanisms",
+   "linear programming",
+   "competitive equilibrium pricing"
+  ]
+ },
+ "arxiv:2412.13972": {
+  "relevant": false,
+  "reason": "The paper addresses a genuine economic equilibrium question in trading networks but uses best-response dynamics and substitutability, not tropical/min-plus geometric machinery.",
+  "topics": [
+   "trading networks",
+   "competitive equilibrium",
+   "decentralized markets"
+  ]
+ },
+ "arxiv:2402.14287": {
+  "relevant": false,
+  "reason": "This is pure tropical geometry about a location/optimization problem with no economic model, preferences, prices, or incentives.",
+  "topics": [
+   "tropical geometry",
+   "Fermat-Weber location",
+   "polytropes",
+   "optimization"
+  ]
+ },
+ "doi:10.1007/s13160-023-00597-4": {
+  "relevant": false,
+  "reason": "The paper is a discrete-convexity/combinatorial characterization and algorithm for assignment valuations without a genuine economic question (no equilibrium, incentives, welfare, or pricing analysis) or tropical machinery applied to economics.",
+  "topics": [
+   "discrete convex analysis",
+   "assignment valuations",
+   "algorithms"
+  ]
+ },
+ "doi:10.1007/s10107-022-01792-w": {
+  "relevant": true,
+  "reason": "The paper uses the tropical/demand-types strong-substitutes framework with Minkowski differences to analyze and compute competitive equilibrium prices, a genuine economic question.",
+  "topics": [
+   "strong substitutes",
+   "competitive equilibrium",
+   "product-mix auctions",
+   "tropical geometry",
+   "pricing algorithms"
+  ]
+ },
+ "doi:10.1090/gsm/219": {
+  "relevant": false,
+  "reason": "This is a mathematics text on tropical combinatorics with no substantive economic model or application to preferences, prices, incentives, or equilibrium.",
+  "topics": [
+   "tropical combinatorics",
+   "pure mathematics"
+  ]
+ },
+ "doi:10.1137/1.9781611976465.61": {
+  "relevant": false,
+  "reason": "This is a pure optimization/algorithms paper on convex function minimization with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "convex optimization",
+   "submodular minimization",
+   "lattice algorithms"
+  ]
+ },
+ "arxiv:2005.01496": {
+  "relevant": true,
+  "reason": "The paper works within the strong substitutes / demand-types framework (tropical-hypersurface machinery via weighted bid vectors) to address learning demand preferences for participation in product-mix auctions, a genuine economic mechanism-design application.",
+  "topics": [
+   "strong substitutes demand",
+   "product-mix auctions",
+   "tropical/bidding language",
+   "query complexity"
+  ]
+ },
+ "doi:10.1016/j.geb.2017.10.016": {
+  "relevant": false,
+  "reason": "This appears to be an algorithmic survey of gross substitutability without clear evidence of tropical/min-plus geometric machinery being the core method, and the abstract is missing to confirm otherwise."
+ },
+ "arxiv:1610.09800": {
+  "relevant": false,
+  "reason": "This is a pure optimization/algorithms paper on submodular function minimization with no tropical/min-plus machinery and no economic question.",
+  "topics": [
+   "submodular optimization",
+   "algorithms",
+   "computational complexity"
+  ]
+ },
+ "doi:10.1016/j.disopt.2016.01.001": {
+  "relevant": true,
+  "reason": "The paper analyzes iterative auctions using discrete convex analysis (closely tied to tropical/min-plus and strong-substitutes machinery) to derive time bounds, addressing a genuine economic mechanism-design question about auction dynamics and equilibrium.",
+  "topics": [
+   "iterative auctions",
+   "discrete convex analysis",
+   "mechanism design",
+   "equilibrium computation"
+  ]
+ },
+ "arxiv:1511.04032": {
+  "relevant": false,
+  "reason": "The paper computes Walrasian equilibria via convex optimization and demand oracles but uses no tropical/min-plus geometric machinery.",
+  "topics": [
+   "Walrasian equilibrium",
+   "gross substitutes",
+   "convex optimization",
+   "algorithmic economics"
+  ]
+ },
+ "arxiv:1508.04874": {
+  "relevant": false,
+  "reason": "This is a pure optimization paper on cutting plane methods with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "convex optimization",
+   "cutting plane methods",
+   "submodular function minimization"
+  ]
+ },
+ "arxiv:1411.0095": {
+  "relevant": false,
+  "reason": "This is an optimization/machine-learning paper on submodular function minimization with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "submodular optimization",
+   "algorithms",
+   "convex optimization"
+  ]
+ },
+ "doi:10.1016/j.orl.2014.06.005": {
+  "relevant": false,
+  "reason": "This is a pure optimization/discrete convex analysis paper about algorithmic bounds for L-convex function minimization with no economic question involving preferences, prices, incentives, or equilibrium.",
+  "topics": [
+   "discrete convex analysis",
+   "optimization algorithms",
+   "L-convex functions"
+  ]
+ },
+ "arxiv:1102.1523": {
+  "relevant": false,
+  "reason": "This paper is about NumPy array computation in Python and has no connection to tropical geometry or economics.",
+  "topics": [
+   "scientific computing",
+   "numerical methods"
+  ]
+ },
+ "doi:10.1007/s10107-006-0084-2": {
+  "relevant": false,
+  "reason": "This is a pure optimization/combinatorics topic on submodular function minimization with no tropical machinery and no genuine economic model.",
+  "topics": [
+   "submodular optimization",
+   "combinatorial optimization"
+  ]
+ },
+ "doi:10.1257/AER.96.3.602": {
+  "relevant": false,
+  "reason": "Without an abstract, there is no evidence this dynamic auction paper uses tropical or min-plus mathematical machinery, so it fails the inclusion criterion requiring both economics and tropical methods.",
+  "topics": [
+   "auctions",
+   "dynamic mechanisms"
+  ]
+ },
+ "doi:10.1137/S1052623402419005": {
+  "relevant": false,
+  "reason": "This is a pure optimization paper on steepest descent algorithms for discrete convex functions with no substantive economic application or model.",
+  "topics": [
+   "discrete convex analysis",
+   "optimization algorithms"
+  ]
+ },
+ "arxiv:math/0205011": {
+  "relevant": false,
+  "reason": "This is pure tropical/complex algebraic geometry about hypersurface decompositions with no economic content whatsoever.",
+  "topics": [
+   "tropical geometry",
+   "algebraic geometry",
+   "no economics"
+  ]
+ },
+ "doi:10.1007/3-540-45678-3_2": {
+  "relevant": true,
+  "reason": "M-convex/discrete convex analysis (closely tied to tropical/min-plus machinery) is applied to economic problems like equilibrium and allocation in mathematical economics.",
+  "topics": [
+   "discrete convex analysis",
+   "M-convexity",
+   "general equilibrium",
+   "indivisible goods"
+  ]
+ },
+ "doi:10.1006/jeth.1999.2580": {
+  "relevant": false,
+  "reason": "The title suggests an economics paper on English auctions with differentiated commodities, but there is no abstract indicating any use of tropical/min-plus geometry machinery, so it fails the requirement for tropical methods."
+ },
+ "doi:10.1287/moor.24.1.95": {
+  "relevant": false,
+  "reason": "This is a pure discrete convex analysis paper on M-convex functions and generalized polymatroids with no substantive tropical/min-plus machinery or genuine economic application in the abstract/title.",
+  "topics": [
+   "discrete convex analysis",
+   "M-convex functions",
+   "polymatroids"
+  ]
+ },
+ "doi:10.1016/S0166-218X(97)00140-6": {
+  "relevant": false,
+  "reason": "This is a discrete convex analysis/optimization paper on minimizing M-convex functions with no tropical/min-plus machinery and no genuine economic model.",
+  "topics": [
+   "discrete convex analysis",
+   "M-convex functions",
+   "combinatorial optimization"
+  ]
+ },
+ "doi:10.1145/62.2160": {
+  "relevant": false,
+  "reason": "This is a computer science paper on the complexity of union-find data structures, with no tropical/min-plus machinery or economic application.",
+  "topics": [
+   "data structures",
+   "algorithm analysis",
+   "computer science"
+  ]
+ },
+ "doi:10.2139/ssrn.4931623": {
+  "relevant": true,
+  "reason": "The paper concerns product-mix auctions and implementing Walrasian equilibrium, a core economic problem (competitive equilibrium, auction design) addressed via the tropical/demand-types product-mix auction framework.",
+  "topics": [
+   "product-mix auctions",
+   "Walrasian equilibrium",
+   "tropical geometry",
+   "auction design"
+  ]
+ },
+ "s2:662719a6f1bd613b1791e8311ec9aecbb3252793": {
+  "relevant": true,
+  "reason": "Klemperer's product-mix auction is a core economic application whose equilibrium and bidding structure is analyzed via the demand-types/tropical-hypersurface machinery central to this bibliography.",
+  "topics": [
+   "auctions",
+   "product-mix auction",
+   "competitive equilibrium with indivisibilities",
+   "tropical geometry",
+   "mechanism design"
+  ]
+ },
+ "doi:10.15807/JORSJ.60.216": {
+  "relevant": false,
+  "reason": "The paper uses discrete convex analysis (L-convex function minimization) rather than tropical/min-plus geometry machinery, and while it discusses auction theory, its methods are not tropical geometry."
+ },
+ "s2:470462279d1d0257208a08ffc4c31400d3a3b67a": {
+  "relevant": true,
+  "reason": "The paper addresses Walrasian equilibrium computation in auctions with indivisible differentiated items, a genuine economic problem, and such iterative auction/equilibrium work typically relies on discrete convexity/tropical machinery (M-convexity, min-plus structure)."
+ },
+ "s2:04b059a7a0177ae0e48904d88ab440b27fd0811f": {
+  "relevant": false,
+  "reason": "This is a mathematical/algorithmic survey on discrete convex analysis without a genuine economic question or application to preferences, prices, or equilibrium.",
+  "topics": [
+   "discrete convex analysis",
+   "algorithms",
+   "optimization"
+  ]
+ },
+ "s2:92b418ddad3baafe63cabe1d781246bebf553dd1": {
+  "relevant": false,
+  "reason": "The title alone is too vague to confirm any substantive use of tropical/min-plus machinery applied to a genuine economic question, so it must be excluded under the when-in-doubt rule.",
+  "topics": [
+   "insufficient information"
+  ]
+ },
+ "arxiv:2310.03692": {
+  "relevant": false,
+  "reason": "This paper addresses competitive equilibrium pricing with budget constraints but uses no tropical/min-plus mathematical machinery.",
+  "topics": [
+   "competitive equilibrium",
+   "pricing",
+   "budget constraints"
+  ]
+ },
+ "arxiv:2306.14247": {
+  "relevant": false,
+  "reason": "The paper addresses a genuine economic question (Walrasian equilibrium, competitive pricing, auctions for package assignment) but uses linear programming rather than tropical/min-plus geometric machinery.",
+  "topics": [
+   "package assignment",
+   "Walrasian equilibrium",
+   "ascending auctions",
+   "linear programming"
+  ]
+ },
+ "arxiv:2607.10205": {
+  "relevant": false,
+  "reason": "This paper is about a derivative-free optimization metaheuristic with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "consensus-based optimization",
+   "optimization algorithms"
+  ]
+ },
+ "arxiv:2606.25761": {
+  "relevant": false,
+  "reason": "This paper is about black-box optimization methods with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "black-box optimization",
+   "evolution strategies"
+  ]
+ },
+ "arxiv:2606.14884": {
+  "relevant": false,
+  "reason": "This paper is about consensus-based optimization on Riemannian manifolds with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "Riemannian optimization",
+   "consensus-based optimization",
+   "mean-field dynamics"
+  ]
+ },
+ "arxiv:2606.06121": {
+  "relevant": false,
+  "reason": "This paper is about ensemble Kalman inversion for inverse/optimization problems with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "numerical methods",
+   "inverse problems",
+   "particle systems"
+  ]
+ },
+ "arxiv:2605.28619": {
+  "relevant": false,
+  "reason": "This paper is about kinetic models for image segmentation, with no tropical/min-plus mathematics and no economic application.",
+  "topics": [
+   "image segmentation",
+   "kinetic models",
+   "particle systems"
+  ]
+ },
+ "arxiv:2605.19609": {
+  "relevant": false,
+  "reason": "This is a software library for global optimization with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "global optimization",
+   "software library"
+  ]
+ },
+ "arxiv:2605.14142": {
+  "relevant": false,
+  "reason": "This paper is about Bayesian inference and particle systems for sampling, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "Bayesian inference",
+   "particle systems",
+   "sampling"
+  ]
+ },
+ "arxiv:2605.10931": {
+  "relevant": false,
+  "reason": "This paper is about mean-field analysis of transformer neural networks, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "machine learning",
+   "transformers",
+   "mean-field analysis"
+  ]
+ },
+ "arxiv:2603.15337": {
+  "relevant": false,
+  "reason": "This paper is about consensus-based optimization using Gaussian processes with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "global optimization",
+   "Gaussian processes",
+   "Sobolev spaces"
+  ]
+ },
+ "arxiv:2508.20671": {
+  "relevant": false,
+  "reason": "This paper is about a measure-theoretic framework for global optimization algorithms with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "global optimization",
+   "formal verification",
+   "stochastic algorithms"
+  ]
+ },
+ "arxiv:2506.24048": {
+  "relevant": false,
+  "reason": "This paper is about consensus-based optimization for adversarial attacks in machine learning, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "consensus-based optimization",
+   "adversarial machine learning",
+   "evolution strategies"
+  ]
+ },
+ "arxiv:2505.24861": {
+  "relevant": false,
+  "reason": "This is a computational sampling algorithm for Bayesian inverse problems with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "consensus-based sampling",
+   "Bayesian inverse problems",
+   "Langevin dynamics"
+  ]
+ },
+ "arxiv:2504.10990": {
+  "relevant": false,
+  "reason": "This paper is about PDE analysis of a consensus-based optimization model with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "PDE analysis",
+   "consensus-based optimization"
+  ]
+ },
+ "arxiv:2503.08578": {
+  "relevant": false,
+  "reason": "This paper is about convergence analysis of an optimization algorithm with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "consensus-based optimization",
+   "global convergence",
+   "optimization algorithms"
+  ]
+ },
+ "arxiv:2502.01434": {
+  "relevant": false,
+  "reason": "This paper concerns global optimization via Fokker-Planck/PDE analysis with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "consensus-based optimization",
+   "PDE analysis",
+   "global optimization"
+  ]
+ },
+ "arxiv:2411.04840": {
+  "relevant": false,
+  "reason": "This paper is about a kinetic-based optimization algorithm with genetic dynamics, involving no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "optimization algorithms",
+   "mean-field methods"
+  ]
+ },
+ "arxiv:2411.03986": {
+  "relevant": false,
+  "reason": "This paper is about mean-field convergence analysis of an optimization algorithm with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "consensus-based optimization",
+   "mean-field limits"
+  ]
+ },
+ "arxiv:2411.03051": {
+  "relevant": false,
+  "reason": "This is an optimization algorithm paper with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "consensus-based optimization",
+   "optimal control",
+   "numerical methods"
+  ]
+ },
+ "arxiv:2410.10361": {
+  "relevant": false,
+  "reason": "This paper is about consensus-based optimization algorithms with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "consensus-based optimization",
+   "numerical methods",
+   "constrained optimization"
+  ]
+ },
+ "arxiv:2409.03518": {
+  "relevant": false,
+  "reason": "This paper is about consensus-based optimization and mean-field limits of SDEs, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "consensus-based optimization",
+   "mean-field limits",
+   "stochastic differential equations"
+  ]
+ },
+ "doi:10.3390/computers13080190": {
+  "relevant": false,
+  "reason": "This paper on opinion dynamics uses Dempster–Shafer theory and network simulations, with no tropical/min-plus machinery and no genuine economic question.",
+  "topics": [
+   "opinion dynamics",
+   "social networks",
+   "Dempster-Shafer theory"
+  ]
+ },
+ "arxiv:2407.17373": {
+  "relevant": false,
+  "reason": "This is an optimization method paper about min-max problems using particle consensus dynamics, with no tropical/min-plus algebra and no economic application.",
+  "topics": [
+   "optimization",
+   "min-max problems",
+   "particle methods"
+  ]
+ },
+ "arxiv:2403.14470": {
+  "relevant": false,
+  "reason": "This paper is about software packages for consensus-based optimization methods with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "optimization software",
+   "interacting particle systems"
+  ]
+ },
+ "arxiv:2403.06662": {
+  "relevant": false,
+  "reason": "This paper is about consensus-based optimization via PDE analysis with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "optimization",
+   "Fokker-Planck equations",
+   "consensus-based methods"
+  ]
+ },
+ "arxiv:2402.00027": {
+  "relevant": false,
+  "reason": "This paper is about ensemble Kalman filtering methods for function approximation and inversion, with no tropical/min-plus mathematics and no economic application.",
+  "topics": [
+   "ensemble Kalman methods",
+   "data assimilation",
+   "numerical inversion"
+  ]
+ },
+ "arxiv:2312.07373": {
+  "relevant": false,
+  "reason": "This paper is about mean-field limits of interacting particle systems for optimization/sampling algorithms, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "consensus-based optimization",
+   "mean-field limits",
+   "interacting particle systems"
+  ]
+ },
+ "arxiv:2311.08270": {
+  "relevant": false,
+  "reason": "This paper uses a consensus-based swarm optimization algorithm for Nash equilibria, with no tropical/min-plus/max-plus machinery involved.",
+  "topics": [
+   "game theory",
+   "optimization algorithms",
+   "Nash equilibrium"
+  ]
+ },
+ "arxiv:2310.16610": {
+  "relevant": false,
+  "reason": "This paper is about a metaheuristic optimization method (consensus-based optimization) with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "optimization",
+   "interacting particle systems"
+  ]
+ },
+ "arxiv:2306.09778": {
+  "relevant": false,
+  "reason": "This paper is about optimization algorithms (consensus-based optimization and gradient descent) with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "optimization",
+   "machine learning",
+   "gradient descent"
+  ]
+ },
+ "arxiv:2305.02894": {
+  "relevant": false,
+  "reason": "This paper is about clustered federated learning and consensus-based optimization with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "federated learning",
+   "consensus-based optimization",
+   "machine learning"
+  ]
+ },
+ "arxiv:2212.05652": {
+  "relevant": false,
+  "reason": "This paper is about a black-box optimization software library with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "black-box optimization",
+   "software library",
+   "evolutionary algorithms"
+  ]
+ },
+ "arxiv:2211.12184": {
+  "relevant": false,
+  "reason": "This paper is about consensus-based optimization methods with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "optimization",
+   "machine learning",
+   "mean-field dynamics"
+  ]
+ },
+ "arxiv:2103.15130": {
+  "relevant": false,
+  "reason": "This paper is about consensus-based optimization methods and their convergence, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "optimization",
+   "mean-field analysis"
+  ]
+ },
+ "arxiv:2209.15420": {
+  "relevant": false,
+  "reason": "This paper is about numerical optimization and sampling methods with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "optimization",
+   "Bayesian inference",
+   "sampling"
+  ]
+ },
+ "arxiv:2111.02970": {
+  "relevant": false,
+  "reason": "This is a numerical optimization paper on constrained global optimization methods with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "global optimization",
+   "stochastic particle systems",
+   "numerical methods"
+  ]
+ },
+ "arxiv:2106.02519": {
+  "relevant": false,
+  "reason": "This paper is about a stochastic sampling and optimization method with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "sampling",
+   "optimization",
+   "Bayesian inference"
+  ]
+ },
+ "arxiv:2104.13815": {
+  "relevant": false,
+  "reason": "This paper is about kinetic/statistical-mechanics equations for processes on networks with no tropical/min-plus machinery and no genuine economic optimization question.",
+  "topics": [
+   "kinetic equations",
+   "co-evolving networks",
+   "opinion dynamics"
+  ]
+ },
+ "arxiv:2104.01383": {
+  "relevant": false,
+  "reason": "This paper is about consensus-based optimization algorithms with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "optimization algorithms",
+   "machine learning"
+  ]
+ },
+ "arxiv:2006.15452": {
+  "relevant": false,
+  "reason": "This paper uses kinetic/reaction-diffusion PDE models for social interactions and contains no tropical/min-plus mathematical machinery.",
+  "topics": [
+   "kinetic models",
+   "social dynamics",
+   "reaction-diffusion equations"
+  ]
+ },
+ "arxiv:2005.07084": {
+  "relevant": false,
+  "reason": "This paper is about a stochastic global optimization algorithm with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "global optimization",
+   "swarm algorithms"
+  ]
+ },
+ "arxiv:2001.11988": {
+  "relevant": false,
+  "reason": "This paper is about consensus-based stochastic optimization on the sphere for machine learning, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "consensus-based optimization",
+   "global optimization",
+   "machine learning"
+  ]
+ },
+ "arxiv:2001.11994": {
+  "relevant": false,
+  "reason": "This is a stochastic optimization/PDE paper with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "consensus-based optimization",
+   "mean-field limit",
+   "stochastic differential equations"
+  ]
+ },
+ "arxiv:1910.08239": {
+  "relevant": false,
+  "reason": "This is a convergence analysis of a consensus-based optimization algorithm with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "global optimization",
+   "consensus-based methods",
+   "machine learning"
+  ]
+ },
+ "arxiv:1909.09249": {
+  "relevant": false,
+  "reason": "This paper is about consensus-based global optimization for machine learning with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "optimization",
+   "machine learning",
+   "Fokker-Planck equations"
+  ]
+ },
+ "arxiv:1604.05648": {
+  "relevant": false,
+  "reason": "This paper is about consensus-based global optimization and mean-field PDE analysis, with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "consensus-based optimization",
+   "mean-field limit",
+   "swarm intelligence"
+  ]
+ },
+ "arxiv:1602.00220": {
+  "relevant": false,
+  "reason": "This paper is about a consensus-based optimization method with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "global optimization",
+   "consensus dynamics",
+   "mean-field analysis"
+  ]
+ },
+ "arxiv:1006.3798": {
+  "relevant": false,
+  "reason": "This paper concerns stochastic opinion dynamics with no tropical/min-plus machinery and no genuine economic question.",
+  "topics": [
+   "opinion dynamics",
+   "mean-field limits"
+  ]
+ },
+ "doi:10.1137/1.9780898718768": {
+  "relevant": false,
+  "reason": "This is a numerical optimization textbook with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "derivative-free optimization",
+   "numerical methods"
+  ]
+ },
+ "arxiv:physics/0504017": {
+  "relevant": false,
+  "reason": "This paper studies opinion dynamics using rate equations and numerical simulation with no tropical/min-plus mathematical machinery.",
+  "topics": [
+   "opinion dynamics",
+   "consensus models",
+   "agent-based modeling"
+  ]
+ },
+ "doi:10.1109/ICNN.1995.488968": {
+  "relevant": false,
+  "reason": "This paper is about particle swarm optimization, an evolutionary computation technique, with no tropical/min-plus mathematics and no economic application.",
+  "topics": [
+   "optimization",
+   "evolutionary computation"
+  ]
+ },
+ "s2:146082c908eae45f8e6e8db0c94916223304a4c1": {
+  "relevant": false,
+  "reason": "This paper concerns opinion dynamics and bounded confidence models in social science/agent-based modeling, with no tropical/min-plus mathematical machinery and no economic equilibrium, pricing, or mechanism-design question.",
+  "topics": [
+   "opinion dynamics",
+   "agent-based modeling",
+   "social influence"
+  ]
+ },
+ "doi:10.1145/280811.281008": {
+  "relevant": false,
+  "reason": "This is a computer graphics/animation paper on simulating collective animal motion, with no tropical/min-plus mathematics or economic content.",
+  "topics": [
+   "computer graphics",
+   "flocking simulation",
+   "collective behavior"
+  ]
+ },
+ "doi:10.1007/978-1-4613-1997-9": {
+  "relevant": false,
+  "reason": "This paper is about genetic algorithms and connectionist machine learning, with no tropical/min-plus mathematics or economic application.",
+  "topics": [
+   "genetic algorithms",
+   "machine learning",
+   "optimization"
+  ]
+ },
+ "s2:9682782c26bb418741304436bb3a721ffc96c0f0": {
+  "relevant": false,
+  "reason": "This is a general reference on matrix identities and linear algebra with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "matrix algebra",
+   "mathematical reference"
+  ]
+ },
+ "doi:10.1016/S1084-8045(02)00061-9": {
+  "relevant": false,
+  "reason": "This is a publisher's note with no content, containing neither tropical/min-plus machinery nor any economic question.",
+  "topics": []
+ },
+ "doi:10.1142/S0219525900000078": {
+  "relevant": false,
+  "reason": "This appears to be an opinion dynamics / belief mixing paper with no evidence of tropical or min-plus mathematical machinery.",
+  "topics": [
+   "opinion dynamics",
+   "belief formation",
+   "agent-based models"
+  ]
+ },
+ "doi:10.1109/TIT.1975.1055330": {
+  "relevant": false,
+  "reason": "This is a statistics/pattern-recognition paper on density gradient estimation with no tropical/min-plus machinery and no economic application.",
+  "topics": [
+   "density estimation",
+   "pattern recognition",
+   "statistics"
+  ]
+ },
+ "doi:10.1073/pnas.1802123116": {
+  "relevant": false,
+  "reason": "This is a market design paper about combinatorial exchanges for catch shares with no tropical/min-plus mathematical machinery employed.",
+  "topics": [
+   "market design",
+   "combinatorial exchange",
+   "resource allocation"
+  ]
+ },
+ "doi:10.1086/721806": {
+  "relevant": false,
+  "reason": "This paper uses convex analysis and majorization theory for mechanism design, not tropical/min-plus geometry.",
+  "topics": [
+   "mechanism design",
+   "convex analysis",
+   "majorization"
+  ]
+ },
+ "doi:10.1090/conm/589": {
+  "relevant": false,
+  "reason": "This appears to be a pure tropical geometry paper on algebraic and combinatorial aspects with no indicated economic application.",
+  "topics": [
+   "tropical geometry",
+   "combinatorics",
+   "algebraic geometry"
+  ]
+ },
+ "doi:10.1016/j.jet.2006.12.007": {
+  "relevant": false,
+  "reason": "This is a mechanism design/monopoly pricing paper in economics but there is no indication it uses tropical/min-plus geometric machinery.",
+  "topics": [
+   "mechanism design",
+   "revenue maximization",
+   "multidimensional screening"
+  ]
+ },
+ "doi:10.1017/CBO9780511813825": {
+  "relevant": false,
+  "reason": "This is a foundational auction theory textbook by Milgrom that uses standard economic and game-theoretic methods, with no tropical/min-plus mathematical machinery.",
+  "topics": [
+   "auction theory",
+   "mechanism design",
+   "economics"
+  ]
+ },
+ "doi:10.2307/2999574": {
+  "relevant": false,
+  "reason": "This appears to be a mechanism design/screening paper without evidence of tropical or min-plus mathematical machinery, and no abstract confirms tropical methods are used.",
+  "topics": [
+   "multidimensional screening",
+   "mechanism design"
+  ]
+ },
+ "doi:10.1016/S0167-2681(96)00894-3": {
+  "relevant": false,
+  "reason": "The title suggests a decision-theory/statistics topic on Bayesian contingent plans with no indication of tropical or min-plus machinery.",
+  "topics": [
+   "decision theory",
+   "Bayesian analysis"
+  ]
+ },
+ "doi:10.1016/0022-247X(65)90049-1": {
+  "relevant": false,
+  "reason": "This is a pure mathematics paper on integrals of set-valued functions with no tropical/min-plus machinery and no substantive economic application.",
+  "topics": [
+   "set-valued analysis",
+   "measure theory"
+  ]
+ },
+ "doi:10.2307/1905479": {
+  "relevant": false,
+  "reason": "This appears to be an early economics paper on income distribution among goods with no indication of tropical/min-plus mathematical machinery.",
+  "topics": [
+   "income distribution",
+   "consumer theory"
+  ]
+ },
+ "doi:10.1215/S0012-7094-41-00838-4": {
+  "relevant": false,
+  "reason": "This is a pure mathematics paper on fixed point theory with no tropical/min-plus machinery and no substantive economic application described.",
+  "topics": [
+   "fixed point theory",
+   "topology"
+  ]
+ },
+ "doi:10.1086/254387": {
+  "relevant": false,
+  "reason": "This is a classic economics paper on taxation and demand/supply theory with no tropical/min-plus mathematical machinery involved.",
+  "topics": [
+   "taxation",
+   "demand and supply theory",
+   "microeconomics"
+  ]
+ },
+ "s2:90ceada4552a99e8fc064dafc6b2c7338edfe829": {
+  "relevant": true,
+  "reason": "The paper applies geometric/tropical methods to mechanism design, a core economic problem involving incentives and mechanism/auction design.",
+  "topics": [
+   "mechanism design",
+   "tropical geometry",
+   "incentive compatibility"
+  ]
+ },
+ "doi:10.1090/QAM/1247431": {
+  "relevant": false,
+  "reason": "This is a pure mathematics paper on potential theory for monotone multivalued operators with no economic application or tropical/min-plus economic model.",
+  "topics": [
+   "potential theory",
+   "monotone operators",
+   "pure mathematics"
+  ]
+ },
+ "doi:10.4064/FM-88-1-61-69": {
+  "relevant": false,
+  "reason": "This is a pure mathematics paper on continuity properties of set-valued monotone mappings with no tropical/min-plus machinery and no economic application evident.",
+  "topics": [
+   "set-valued analysis",
+   "monotone mappings",
+   "semi-continuity"
+  ]
+ },
+ "doi:10.1515/9781400871087": {
+  "relevant": false,
+  "reason": "This is a classic economics text on production and cost functions with no tropical/min-plus mathematical machinery involved.",
+  "topics": [
+   "production theory",
+   "cost functions",
+   "microeconomics"
+  ]
+ },
+ "arxiv:2510.15065": {
+  "relevant": false,
+  "reason": "This paper addresses algorithmic contract design, a genuine economic topic, but uses combinatorial optimization and complexity theory rather than tropical/min-plus geometric machinery.",
+  "topics": [
+   "contract theory",
+   "algorithmic mechanism design",
+   "combinatorial optimization"
+  ]
+ },
+ "arxiv:2511.20110": {
+  "relevant": false,
+  "reason": "This is an algorithmic contract design paper using approximation/complexity theory, not tropical or min-plus/max-plus geometric machinery.",
+  "topics": [
+   "contract design",
+   "approximation algorithms",
+   "gross substitutes"
+  ]
+ },
+ "arxiv:2511.19358": {
+  "relevant": false,
+  "reason": "This is a contract theory/mechanism design paper about equilibrium approximation guarantees, but it uses no tropical/min-plus mathematical machinery.",
+  "topics": [
+   "contract design",
+   "equilibrium concepts",
+   "approximation algorithms"
+  ]
+ },
+ "arxiv:2506.05705": {
+  "relevant": false,
+  "reason": "This is a contract/mechanism design paper but uses combinatorial optimization and approximation algorithms, not tropical or min-plus geometry machinery.",
+  "topics": [
+   "contract design",
+   "combinatorial optimization",
+   "approximation algorithms"
+  ]
+ },
+ "arxiv:2504.18876": {
+  "relevant": false,
+  "reason": "This is a contract theory/algorithmic economics paper with no tropical or min-plus/max-plus mathematical machinery.",
+  "topics": [
+   "contract design",
+   "welfare maximization",
+   "algorithmic mechanism design"
+  ]
+ },
+ "arxiv:2504.17948": {
+  "relevant": false,
+  "reason": "This is a pure economic contract theory/moral hazard paper with no tropical or min-plus mathematical machinery.",
+  "topics": [
+   "contract theory",
+   "moral hazard",
+   "robust mechanism design"
+  ]
+ },
+ "arxiv:2504.01773": {
+  "relevant": false,
+  "reason": "This is a contract theory/mechanism design paper using approximation algorithms and combinatorial optimization, with no tropical or min-plus mathematical machinery.",
+  "topics": [
+   "contract theory",
+   "mechanism design",
+   "approximation algorithms"
+  ]
+ },
+ "arxiv:2501.14474": {
+  "relevant": false,
+  "reason": "This paper uses statistical learning theory (pseudo-dimension) for contract design, not tropical/min-plus geometry.",
+  "topics": [
+   "contract design",
+   "statistical learning theory",
+   "sample complexity"
+  ]
+ },
+ "arxiv:2405.08260": {
+  "relevant": false,
+  "reason": "This is an algorithmic contract design paper with economic content but no tropical/min-plus mathematical machinery.",
+  "topics": [
+   "contract design",
+   "algorithmic mechanism design",
+   "approximation algorithms"
+  ]
+ },
+ "arxiv:2403.09545": {
+  "relevant": false,
+  "reason": "This is a contract theory/mechanism design paper but uses no tropical or min-plus mathematical machinery.",
+  "topics": [
+   "contract design",
+   "mechanism design",
+   "algorithmic complexity"
+  ]
+ },
+ "arxiv:2403.09794": {
+  "relevant": false,
+  "reason": "This is a contract theory paper using information-theoretic and communication complexity techniques, with no tropical/min-plus geometry machinery.",
+  "topics": [
+   "contract theory",
+   "communication complexity",
+   "mechanism design"
+  ]
+ },
+ "arxiv:2403.02317": {
+  "relevant": false,
+  "reason": "This is a contract/mechanism design paper on Pandora's Box exploration but uses no tropical/min-plus mathematical machinery.",
+  "topics": [
+   "contract design",
+   "principal-agent",
+   "algorithmic mechanism design"
+  ]
+ },
+ "arxiv:2402.13824": {
+  "relevant": false,
+  "reason": "This paper studies multi-agent contract design using algorithmic/game-theoretic methods but employs no tropical/min-plus geometric machinery.",
+  "topics": [
+   "contract theory",
+   "mechanism design",
+   "algorithmic game theory"
+  ]
+ },
+ "arxiv:2311.18425": {
+  "relevant": false,
+  "reason": "This is a contract design paper focused on computational approximability using combinatorial optimization, with no tropical/min-plus geometry machinery.",
+  "topics": [
+   "contract theory",
+   "computational complexity",
+   "mechanism design"
+  ]
+ },
+ "arxiv:2309.10766": {
+  "relevant": false,
+  "reason": "This paper studies combinatorial contract design using demand queries and sensitivity analysis but does not employ tropical/min-plus geometric machinery.",
+  "topics": [
+   "contract theory",
+   "algorithmic mechanism design",
+   "gross substitutes"
+  ]
+ },
+ "arxiv:2301.13654": {
+  "relevant": false,
+  "reason": "This is a contract/mechanism design paper using matroid optimization and submodularity, but it does not employ tropical/min-plus mathematical machinery.",
+  "topics": [
+   "contract design",
+   "mechanism design",
+   "computational complexity"
+  ]
+ },
+ "arxiv:2211.05434": {
+  "relevant": false,
+  "reason": "This is a contract design paper using combinatorial optimization and approximation algorithms, with no tropical/min-plus geometry machinery.",
+  "topics": [
+   "contract theory",
+   "mechanism design",
+   "approximation algorithms"
+  ]
+ },
+ "arxiv:2109.14260": {
+  "relevant": false,
+  "reason": "This is a contract theory paper using gross substitutes and combinatorial optimization, but it does not employ tropical/min-plus geometric machinery.",
+  "topics": [
+   "contract theory",
+   "gross substitutes",
+   "combinatorial optimization"
+  ]
+ },
+ "arxiv:2105.14998": {
+  "relevant": false,
+  "reason": "This is a contract theory/mechanism design paper using algorithmic and graph-theoretic tools but contains no tropical/min-plus geometry machinery.",
+  "topics": [
+   "contract design",
+   "mechanism design",
+   "common agency"
+  ]
+ },
+ "doi:10.7765/9781526144133.00049": {
+  "relevant": false,
+  "reason": "No abstract or substantive content is provided to evaluate whether the paper applies tropical methods to an economic question.",
+  "topics": []
+ },
+ "arxiv:2002.12034": {
+  "relevant": false,
+  "reason": "This paper studies computational complexity of contract design without using any tropical/min-plus geometry machinery.",
+  "topics": [
+   "contract theory",
+   "computational complexity",
+   "mechanism design"
+  ]
+ },
+ "arxiv:1808.03713": {
+  "relevant": false,
+  "reason": "This is a contract theory paper using linear programming and worst-case approximation analysis, with no tropical/min-plus geometry machinery.",
+  "topics": [
+   "contract theory",
+   "mechanism design",
+   "approximation"
+  ]
+ },
+ "doi:10.1201/9781420010749.ch30": {
+  "relevant": false,
+  "reason": "This is a pure combinatorial optimization paper with no tropical/min-plus machinery or genuine economic model indicated.",
+  "topics": [
+   "combinatorial optimization",
+   "sensitivity analysis"
+  ]
+ },
+ "arxiv:1712.04236": {
+  "relevant": false,
+  "reason": "The paper studies exchange properties of valuations in discrete optimization/matroid theory without using tropical/min-plus geometric machinery, despite touching on substitutes valuations.",
+  "topics": [
+   "valuations",
+   "discrete optimization",
+   "matroids"
+  ]
+ },
+ "doi:10.1137/050641181": {
+  "relevant": false,
+  "reason": "This paper concerns the computational complexity/power of demand queries in combinatorial auctions but does not substantively employ tropical/min-plus geometric machinery.",
+  "topics": [
+   "combinatorial auctions",
+   "demand queries",
+   "computational complexity"
+  ]
+ },
+ "doi:10.1016/j.jet.2008.06.004": {
+  "relevant": false,
+  "reason": "This appears to be a pure economics/decision theory paper on supermodularity and preferences with no evidence of tropical or min-plus mathematical machinery.",
+  "topics": [
+   "supermodularity",
+   "preferences",
+   "decision theory"
+  ]
+ },
+ "doi:10.1145/1134707.1134710": {
+  "relevant": false,
+  "reason": "This paper is about contract/agency theory in a combinatorial setting but does not use tropical or min-plus mathematical machinery.",
+  "topics": [
+   "contract theory",
+   "agency",
+   "mechanism design"
+  ]
+ },
+ "doi:10.1145/321978.321982": {
+  "relevant": false,
+  "reason": "This paper concerns database record segmentation, with no tropical/min-plus mathematics and no economic model.",
+  "topics": [
+   "databases",
+   "record segmentation"
+  ]
+ },
+ "doi:10.1177/104438942000100813": {
+  "relevant": false,
+  "reason": "The title alone with no abstract provides insufficient evidence that this paper substantively uses tropical/min-plus machinery for an economic application.",
+  "topics": [
+   "insufficient information"
+  ]
+ },
+ "doi:10.48550/arXiv.2506.18008": {
+  "relevant": false,
+  "reason": "This appears to be a combinatorial contracts paper about substitutes/complements in contract design, but there is no indication it uses tropical/min-plus geometric machinery.",
+  "topics": [
+   "contract theory",
+   "combinatorial optimization"
+  ]
+ },
+ "doi:10.1007/978-3-030-61115-6_13": {
+  "relevant": false,
+  "reason": "The title 'Subgraphs' with no abstract provides no evidence of tropical/min-plus machinery or an economic application.",
+  "topics": []
+ },
+ "doi:10.1007/978-3-642-33996-7": {
+  "relevant": false,
+  "reason": "This is a broad textbook/reference on algorithmic game theory with no substantive use of tropical or min-plus geometric machinery.",
+  "topics": [
+   "algorithmic game theory",
+   "computational economics"
+  ]
+ },
+ "s2:0a3069e7387f7a8c7648d3b30b6ad50bd3ce9ab6": {
+  "relevant": false,
+  "reason": "The title suggests a contract theory or fairness topic with no indication of tropical/min-plus mathematical machinery, and no abstract confirms tropical methods.",
+  "topics": [
+   "contract theory",
+   "fairness"
+  ]
+ },
+ "doi:10.1090/tran/9461": {
+  "relevant": false,
+  "reason": "This is pure combinatorics/tropical geometry about realizing the s-permutahedron via flow polytopes with no economic question or application.",
+  "topics": [
+   "tropical geometry",
+   "combinatorics",
+   "polytopes"
+  ]
+ },
+ "arxiv:2405.02092": {
+  "relevant": false,
+  "reason": "This is pure combinatorics/lattice theory and polyhedral geometry with no economic question or application.",
+  "topics": [
+   "lattice theory",
+   "combinatorics",
+   "polyhedral geometry"
+  ]
+ },
+ "arxiv:2307.03474": {
+  "relevant": false,
+  "reason": "This is a pure combinatorics/tropical geometry paper about realizing the s-permutahedron with no economic question or application.",
+  "topics": [
+   "tropical geometry",
+   "polytopes",
+   "combinatorics"
+  ]
+ },
+ "arxiv:2306.15157": {
+  "relevant": false,
+  "reason": "This paper applies tropical geometry to neural networks and machine learning, with no economic question about preferences, prices, incentives, or equilibrium.",
+  "topics": [
+   "tropical polynomial division",
+   "neural networks",
+   "machine learning"
+  ]
+ },
+ "arxiv:2301.12760": {
+  "relevant": false,
+  "reason": "This is pure convex geometry over ordered hyperfields with no economic model, question, or application.",
+  "topics": [
+   "convex geometry",
+   "ordered hyperfields",
+   "separation theorems"
+  ]
+ },
+ "arxiv:1908.00241": {
+  "relevant": false,
+  "reason": "This is a pure tropical/polyhedral geometry paper on Minkowski factorization of generalized permutahedra with no economic question or application.",
+  "topics": [
+   "tropical geometry",
+   "Minkowski factorization",
+   "generalized permutahedra"
+  ]
+ },
+ "s2:3ed0ed5ddafbcd4a888f841aebc1e831e672b456": {
+  "relevant": false,
+  "reason": "This is a pure tropical geometry paper about convergent Puiseux series and higher rank valuations with no economic model or application.",
+  "topics": [
+   "tropical geometry",
+   "Puiseux series",
+   "pure mathematics"
+  ]
+ },
+ "doi:10.1007/s00200-019-00407-w": {
+  "relevant": false,
+  "reason": "This is a pure computational/algebraic-geometry complexity result about tropical prevarieties with no economic question or application.",
+  "topics": [
+   "tropical geometry",
+   "computational complexity",
+   "algebraic geometry"
+  ]
+ },
+ "arxiv:1803.01068": {
+  "relevant": false,
+  "reason": "This is a pure tropical geometry/algebra paper about tropical linear prevarieties with no economic question or application.",
+  "topics": [
+   "tropical geometry",
+   "tropical linear algebra"
+  ]
+ },
+ "s2:abf3516b1c32d349a9ee387df5765185d5c37f81": {
+  "relevant": false,
+  "reason": "This is a pure tropical/real algebraic geometry paper with no economic model, question, or application.",
+  "topics": [
+   "tropical geometry",
+   "real algebraic geometry"
+  ]
+ },
+ "s2:8ea55d553ecf69471e60db9a10399a0940aaf088": {
+  "relevant": false,
+  "reason": "This appears to be a general survey of tropical geometry theory and applications without a specific substantive economic application, and no abstract is provided to indicate otherwise.",
+  "topics": [
+   "tropical geometry",
+   "survey"
+  ]
+ },
+ "s2:da59d04939c124eb9ed1690ac9ced964c24fd70b": {
+  "relevant": true,
+  "reason": "This thesis concerns designing and pricing new energy services in a competitive environment, aligning with the tropical/discrete-convexity pricing work of Akian, Bouhtou, Eytard & Gaubert on price incentives, addressing a genuine economic pricing/competition question.",
+  "topics": [
+   "pricing",
+   "energy services",
+   "competition",
+   "tropical/min-plus optimization"
+  ]
+ },
+ "doi:10.70675/8a782bcfzb5bcz43a8zb88cz1ca857f821aa": {
+  "relevant": false,
+  "reason": "This thesis on bilevel optimization for electricity pricing addresses a genuine economic pricing/equilibrium question but shows no evidence of using tropical/min-plus/tropical-convexity machinery.",
+  "topics": [
+   "bilevel optimization",
+   "energy pricing",
+   "Nash equilibria"
+  ]
+ },
+ "s2:208bf608cebdd8471b5abb3e030c8709251246ed": {
+  "relevant": false,
+  "reason": "Without an abstract, the title suggests a bilevel optimization for tariff pricing but provides no evidence of tropical/min-plus machinery being used, so it fails the requirement of substantive tropical methods.",
+  "topics": [
+   "pricing",
+   "bilevel optimization",
+   "tariffs"
+  ]
+ },
+ "doi:10.1007/978-3-030-52119-6_20": {
+  "relevant": false,
+  "reason": "This is a general survey/bibliography on bilevel optimization theory and algorithms, not a substantive application of tropical/min-plus machinery to an economic question.",
+  "topics": [
+   "bilevel optimization",
+   "optimization theory"
+  ]
+ },
+ "doi:10.1109/ITC-28.2016.119": {
+  "relevant": false,
+  "reason": "This is a wireless network engineering optimization paper with no tropical/min-plus machinery or genuine economic model of preferences, incentives, or market equilibrium.",
+  "topics": [
+   "wireless networks",
+   "optimization",
+   "resource allocation"
+  ]
+ },
+ "doi:10.1145/2756543": {
+  "relevant": false,
+  "reason": "The title suggests a networking/data-pricing topic with no indication of tropical or min-plus mathematical machinery, and no abstract confirms tropical methods.",
+  "topics": [
+   "data pricing",
+   "networking economics"
+  ]
+ },
+ "arxiv:1511.04023": {
+  "relevant": false,
+  "reason": "This is a bilevel pricing optimization problem with genuine economics but uses derivative-free/standard optimization methods, not tropical/min-plus machinery.",
+  "topics": [
+   "mobile data pricing",
+   "bilevel optimization",
+   "congestion pricing"
+  ]
+ },
+ "doi:10.1017/CBO9781139507103": {
+  "relevant": false,
+  "reason": "This appears to be a general survey of telecommunication network economics with no indication of tropical/min-plus mathematical machinery being used to address the economic questions.",
+  "topics": [
+   "network economics",
+   "telecommunications"
+  ]
+ },
+ "doi:10.1109/INFCOMW.2013.6562868": {
+  "relevant": false,
+  "reason": "This appears to be a networking/telecommunications pricing paper with no indication of tropical/min-plus mathematical machinery being used to address the economic question.",
+  "topics": [
+   "network pricing",
+   "demand shaping",
+   "telecommunications"
+  ]
+ },
+ "doi:10.1145/2342356.2342402": {
+  "relevant": false,
+  "reason": "This is a systems/networking paper on time-dependent pricing with no tropical/min-plus mathematical machinery.",
+  "topics": [
+   "network pricing",
+   "mobile data",
+   "congestion pricing"
+  ]
+ },
+ "arxiv:1201.4197": {
+  "relevant": false,
+  "reason": "This is a survey of data pricing schemes with no tropical/min-plus mathematical machinery.",
+  "topics": [
+   "data pricing",
+   "network economics"
+  ]
+ },
+ "doi:10.1007/s10479-007-0176-2": {
+  "relevant": false,
+  "reason": "This is a general survey of bilevel optimization methods with no substantive use of tropical/min-plus machinery nor a specific economic model as its core contribution.",
+  "topics": [
+   "bilevel optimization",
+   "optimization survey"
+  ]
+ },
+ "doi:10.1109/TNET.2006.882861": {
+  "relevant": false,
+  "reason": "The title suggests an economic auction/pricing topic but there is no evidence of tropical or min-plus machinery, and no abstract to confirm tropical methods are used."
+ },
+ "doi:10.1109/TNET.2005.852876": {
+  "relevant": false,
+  "reason": "This paper concerns non-convex optimization for network rate control and pricing of Internet services, but there is no evidence it uses tropical/min-plus mathematical machinery.",
+  "topics": [
+   "network rate control",
+   "non-convex optimization",
+   "pricing"
+  ]
+ },
+ "doi:10.1007/s10288-005-0071-0": {
+  "relevant": false,
+  "reason": "This is a general survey of bilevel programming as an optimization topic, not specifically applying tropical/min-plus machinery to an economic question.",
+  "topics": [
+   "bilevel programming",
+   "optimization survey"
+  ]
+ },
+ "doi:10.1287/trsc.34.3.289.12299": {
+  "relevant": false,
+  "reason": "Bilevel tariff-setting is an economic pricing problem, but there is no indication the paper uses tropical/min-plus machinery to address it."
+ },
+ "doi:10.1137/0218069": {
+  "relevant": false,
+  "reason": "This is a pure algorithms/optimization paper on network flow scaling algorithms with no tropical machinery or economic model.",
+  "topics": [
+   "network flow algorithms",
+   "combinatorial optimization"
+  ]
+ },
+ "doi:10.1007/BF01580724": {
+  "relevant": false,
+  "reason": "This is a pure optimization/algorithms paper on linear programming with no economic question about preferences, incentives, welfare, or markets, and no genuine tropical/min-plus economic application.",
+  "topics": [
+   "linear programming",
+   "optimization algorithms"
+  ]
+ },
+ "doi:10.1007/978-0-387-68276-1": {
+  "relevant": false,
+  "reason": "This is a mathematics reference on majorization theory with no tropical/min-plus machinery and no specific economic application.",
+  "topics": [
+   "majorization",
+   "inequalities",
+   "mathematical analysis"
+  ]
+ },
+ "doi:10.1515/9781400873173": {
+  "relevant": false,
+  "reason": "This is a general convex analysis mathematics textbook (Rockafellar's classic) with no specific tropical/min-plus machinery or economic application.",
+  "topics": [
+   "convex analysis",
+   "mathematics textbook"
+  ]
+ },
+ "doi:10.1090/QAM/102435": {
+  "relevant": false,
+  "reason": "This appears to be a classic operations research/graph theory paper (likely Bellman's shortest path work) with no substantive economic model involving preferences, incentives, welfare, or equilibrium.",
+  "topics": [
+   "routing",
+   "shortest path",
+   "operations research"
+  ]
+ },
+ "doi:10.1007/0-387-22633-8_9": {
+  "relevant": false,
+  "reason": "This appears to be a classical network flow theory paper with no indication of tropical/min-plus machinery or a specific economic question.",
+  "topics": [
+   "network flow",
+   "optimization"
+  ]
+ },
+ "s2:f9e591692d6aab0e1cf0c1ea4948597195657edf": {
+  "relevant": false,
+  "reason": "This is a comprehensive combinatorial optimization reference on polyhedra and algorithmic efficiency with no tropical/min-plus machinery applied to an economic question.",
+  "topics": [
+   "combinatorial optimization",
+   "polyhedra"
+  ]
+ },
+ "s2:4f0edaf93be99cdc5dfb3e955cd9f89343628770": {
+  "relevant": false,
+  "reason": "The title indicates a networking/performance topic with no abstract and no evidence of tropical machinery applied to a genuine economic question.",
+  "topics": [
+   "network performance",
+   "unrelated"
+  ]
+ },
+ "s2:33a809fbb84a4d501e42872213474950faa9889f": {
+  "relevant": false,
+  "reason": "This is a network pricing paper using game theory but shows no evidence of tropical/min-plus geometry machinery.",
+  "topics": [
+   "network pricing",
+   "game theory"
+  ]
+ }
+}
