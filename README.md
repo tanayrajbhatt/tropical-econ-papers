@@ -5,7 +5,7 @@ A curated, weekly-updated list of papers applying tropical geometry and min-plus
 _50 papers._
 
 - [Combinatorial Contracts Through Demand Types](https://arxiv.org/abs/2604.15125) — Elizabeth Baldwin, Paul Duetting, Michal Feldman, Maya Schlesinger (2026). *preprint*
-- [Tropical Analysis: With an Application to Indivisible Goods](https://arxiv.org/abs/2308.04593) — Nick Bultman, Jacob K. Goeree (2025). *Theoretical Economics*
+- [Tropical Analysis: With an Application to Indivisible Goods](https://arxiv.org/abs/2308.04593) — Nicholas C. Bedard, Jacob K. Goeree (2025). *Theoretical Economics*
 - [Dynamics of multidimensional Simple Clock Auctions](https://arxiv.org/abs/2512.10614) — Jad Zeroual, M. Akian, Aurélien Bechler, Matthieu Chardy (2025). *arXiv.org*
 - [A Universally Efficient Dynamic Auction for All Unimodular Demand Types](https://doi.org/10.1287/moor.2023.0127) — Satoru Fujishige, Zaifu Yang (2025). *Mathematics of Operations Research*
 - [Приложения тропической математики в экономике и теории игр](https://doi.org/10.34706/de-2025-05-05) — Александр Николаевич Козырев (2025). *Цифровая экономика*
